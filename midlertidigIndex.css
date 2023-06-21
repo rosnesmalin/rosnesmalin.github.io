@@ -1,0 +1,750 @@
+* {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5;
+    font-weight: 10;
+    letter-spacing: 0.8px;
+  }
+ 
+
+  
+  /* navbar start */
+
+  .home-page #navbar {
+    width: 100%;
+    height: 17vmin; 
+    z-index: 200;
+    position: fixed;
+
+  }
+  
+  #navlinks {
+    display: flex;
+    background-color: #f3f2f2;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 60px;
+  }
+
+  
+  #navlinks ul {
+    list-style: none;
+    display: flex;
+    gap: 5vmax;
+    font-size: 1.8vmin;
+  }
+
+
+  #navlinks ul li:hover {
+    transform: scale(1.05);
+  }
+
+ 
+  #logo {
+    height: 15vmin;
+    display: block;
+    margin: 0px auto;
+    margin-top: -60px;
+  }
+
+  .logo2 { 
+    display: none;
+  }
+
+  .logo:hover { 
+    transform: scale(1.05);
+  }
+
+  .logo2:hover { 
+    transform: scale(1.05);
+  }
+
+
+  
+  nav ul a {
+    color: #3d3d3d;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav ul a:hover { 
+    transform: scale(1.05);
+  }
+  
+  #ham-menu {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  
+  }
+  
+  nav ul.active {
+    left: 0;
+  }
+  
+  
+/* navbar slutt */
+/* hero start */
+
+
+.hero {
+    background-image: url(herobilde.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 70vmin;
+}
+
+
+
+/* hero slutt */
+
+/* tekst seksjon 1 */
+
+.seksjon1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eae9e9;
+    text-align: center;
+    height: 38vmax;
+}
+
+
+.seksjon1 h1{
+  font-size: 2vmax;
+  font-weight: 100;
+  color: #000000;
+  width: 70%;
+}
+
+.seksjon1 p{
+  font-size: 1.2vmax;
+  padding-top: 20px;
+  color: #000000;
+  width: 40%;
+}
+
+#introduksjonstekst1 {
+  font-weight: bold;
+}
+
+.seksjon1 button {
+  margin-top: 20px;
+  background-color: #4F8966;
+  color: #f2f2f2;
+  border-radius: 80px;
+  border: 1px;
+  height: auto;
+  width: 15vmin;
+  padding: 7px;
+  margin-right: 14px;
+  font-size: 1vmax;
+}
+
+.seksjon1 button:hover {
+  transform: scale(1.05);
+}
+
+.ikon-container {
+  display: flex;
+  margin-left: 20px;
+}
+
+.ikon {
+  width: 6vmin;
+  height: 6vmin;
+  margin-right: 20px;
+  margin-top: 40px;
+}
+
+
+/* seksjon 2 "71 mål med grønn glede" boks*/
+.seksjon2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin:170px auto; /* Setter 'auto' på 'margin' for å midtstille horisontalt */
+  height: 500px;
+}
+
+
+.seksjon2bilder {
+  width: 60%;
+  height: 30vmax;
+}
+
+#bilde1 {
+  background-image: url("bilde1.png") ;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+#bilde2 {
+  background-image: url("produksjon.jpeg") ;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.seksjon2tekst{
+  width: 30%;
+  padding: 20px 20px 20px 80px;
+}
+
+.seksjon2tekst p {
+  width: 90%;
+  font-size: 1.2vmax;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#overskrift1{
+  display: none;
+}
+
+.overskrift2 {
+  width: 100%;
+  padding-top: 20px;
+  font-size: 2vmax;
+  font-weight: 100;
+}
+
+.seksjon2 button {
+  background-color: #4F8966;
+  color: #f2f2f2;
+  border-radius: 80px;
+  border: 1px;
+  height: auto;
+  width: 6rem;
+  padding: 0.5vmax;
+  margin: auto;
+  font-size: 1vmax;
+}
+
+.seksjon2 button:hover {
+  transform: scale(1.05);
+}
+
+/* tekst seksjon 3 */
+
+.seksjon3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #528D72;
+  text-align: center;
+  height: 35vmax;
+}
+
+.seksjon3ikon {
+  height: 4rem;
+  width: 4rem;
+  margin-bottom: 20px;
+}
+
+.seksjon3 h1{
+font-size: 2.5vmax;
+font-weight: 100;
+color: #ffffff;
+width: 40%;
+}
+
+.seksjon3 p{
+font-size: 1.2vmax;
+padding-top: 20px;
+color: #ffffff;
+width: 40%;
+}
+
+
+.seksjon3 button {
+  background-color: #f2f2f2;
+  color: #000000;
+  border-radius: 80px;
+  border: 1px;
+  height: auto;
+  width: 6rem;
+  padding: 0.5vmax;
+  margin: auto;
+  font-size: 1vmax;
+  margin-top: 20px;
+}
+
+.seksjon3 button:hover {
+  transform: scale(1.05);
+}
+
+/* seksjon 2 "71 mål med grønn glede" boks*/
+
+.seksjon4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: -20px auto;
+  height: 600px;
+  background-color: #eeeded;
+}
+
+.seksjon4overskrift1 {
+  display: none;
+}
+
+
+.seksjon4bilde {
+  width: 35vmax;
+  height: 35vmax;
+}
+
+#vårtTeam {
+  background-image: url("ansatte.jpeg") ;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+
+.seksjon4tekst{
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  padding: 20px 70px 20px 200px;
+  margin: 100px 100px 100px 0;
+}
+
+.seksjon4 img {
+  height: 10vmin;
+  width: 10vmin;
+}
+
+
+.seksjon4tekst p {
+  font-size: 1.2vmax;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.seksjon4overskrift2 {
+  width: 100%;
+  padding-top: 20px;
+  font-size: 2vmax;
+  font-weight: 100;
+}
+
+.seksjon4 button {
+  background-color: #4F8966;
+  color: #f2f2f2;
+  border-radius: 80px;
+  border: 1px;
+  height: auto;
+  width: 6rem;
+  padding: 0.5vmax;
+  margin: auto;
+  font-size: 1vmax;
+}
+
+.seksjon4 button:hover {
+  transform: scale(1.05);
+}
+
+
+/* sosiale medier */
+
+.soMe {
+  height: 450px;
+  padding-top: 100px;
+}
+
+.soMe h2 {
+  margin-left: 35%; /* fiks*/
+}
+.soMe-container {
+  padding: 30px;
+  display: flex;
+  margin-left: 40%; /* fiks*/
+}
+
+.soMe-container img {
+  height: 8vmax;
+  padding: 10px;
+}
+
+.soMe-container img:hover {
+  transform: scale(1.05);
+}
+
+
+
+/*footer tablet/laptop*/
+.footer {
+  width: 100%;
+  background:#f2f2f2;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold 14px sans-serif;
+}
+
+
+/* Footer venstre-del */
+.footer-venstre{
+  padding-left: 140px;
+  margin-top: -100px;
+}
+
+
+.footer p{
+  color: black;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 2;
+}
+
+.logo3:hover {
+  transform: scale(1.02);
+}
+
+/* footer - midten */
+
+.åpningstider {
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: var(--farge13); 
+  font-size: 14px;
+  font-weight: 1000;
+}
+
+.footer-midten {
+  margin: auto;
+}
+
+.footer-midten a{
+  color: black;
+}
+
+
+
+/* Footer høyre */
+
+.footer-høyre{
+    width: 20%;
+    padding-top: 30px;
+}
+
+.footer-høyre p{
+    color: var(--farge4);
+    font-weight: 100;
+}
+
+
+.footer-høyre p a{
+    color: var(--farge13); 
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.footer-links a{
+  line-height: 2;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  text-decoration: underline;
+  display: block;
+}
+
+.footer-links a:hover {
+  transform: scale(1.02);
+}
+
+
+
+
+
+/* pop-up melding */
+
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(2px); /* Juster blur-styrken etter behov */
+  z-index: 998; /* Pass på at z-indeksen er lavere enn popupmeldingen */
+  display: none;
+}
+
+#myModal {
+  position: fixed;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999; /* Pass på at z-indeksen er høyere enn bakgrunnen */
+  /* Andre stiler for popupmeldingen */
+  display: none;
+}
+
+
+.modal-content {
+  background-color: #528D72;
+  color: white;
+  border-radius: 20px;
+  padding: 50px;
+  z-index: 10000;
+}
+
+#myModal p {
+  padding-top: 20px;
+}
+
+#myModal h3 {
+  font-weight: bold;
+}
+
+.modal-top {
+  float: right;
+  margin: -10px;
+}
+
+.modal-top button {
+  border-radius: 100px;
+  height: 35px;
+  width: 35px;
+  border: none;
+  font-size: large;
+}
+
+.modal-top button:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+/*mobile device*/
+@media only screen and (max-width:1000px){
+
+  .footer{
+      flex-direction: column;
+      font-size:2.5vmin;
+}
+  
+  .footer-venstre, .footer-midten, .footer-høyre{
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-venstre {
+    order: 1;
+  }
+
+  .footer-midten  {
+    margin-bottom: 50px;
+    order: 2;
+  }
+
+  .footer-høyre {
+    order: 3;
+  }
+
+  h4 {
+    margin-top: 30px;
+    font-size: 12px;
+  }
+
+  .footer-midten p {
+    font-size: 11px;
+  }
+
+
+
+ 
+}
+
+
+
+/* tablet */
+@media only screen and (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+
+  #navbar {
+    height: 15vmin;
+    z-index: 200;
+  }
+  #ham-menu {
+    display: block;
+    color: #3b7741;
+  }
+  
+  nav a#logo, #ham-menu {
+    font-size: 3.2rem;
+  }
+  nav ul {
+    background-color:#EBECEB;
+    font-size: 1.8rem;
+    gap: 0;
+    position: fixed;
+    left: -100vw;
+    top: 0px; 
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    transition: 0.7s;
+  }
+
+  #logo {
+    margin-bottom: -100px;
+    display: none;
+  }
+
+  .logo2 { 
+    height: 15vmin;
+    display: block;
+    margin: 0px auto;
+    margin-bottom: -100px;
+  }
+
+  .seksjon1 {
+    height: auto;
+    padding: 30px;
+  }
+
+  .seksjon2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    height: auto;
+    width: 90%;
+    border-radius: 5px;
+    margin: 50px auto;
+  }
+  
+  .seksjon2bilder {
+    width: 35rem;
+    border-radius: 5px;
+    height: 35rem;
+    margin: auto;
+    order: 1;
+  }
+  
+  .seksjon2tekst {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    order: 1;
+  }
+  
+  .seksjon2tekst p {
+      padding: 2vmax 0 2vmax 0;
+      width: 70%;
+      margin: auto;  
+      font-size: 1.4vmax;
+      margin-bottom: 20px;
+  }
+  
+  #overskrift1 {
+    display: block;
+    font-size: 3vmax;
+    margin-bottom: 20px;
+  }
+
+  #overskrift2 {
+    display: none;
+  }
+
+ 
+  .seksjon2tekst button {
+    font-size: 1.2vmax;
+    height: auto;
+    width: 8rem;
+    padding: 1vmax;
+  }
+
+
+  .seksjon3 {
+    height: 55vmax;
+    padding: 50px;
+  }
+
+  .seksjon3 h1 {
+    width: 95%;
+  }
+
+  .seksjon3 p {
+    width: 80%;
+  }
+
+  .seksjon4 {
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+  }
+  
+  .seksjon4bilde {
+    width: 35rem;
+    height: 35rem;
+    margin:  auto;
+    margin-bottom: -40px;
+    margin-top: 20px;
+    order: 2; /* funker ikke */
+  }
+  
+  .seksjon4tekst{
+    text-align: center;
+    width: 90%;
+    padding: 50px;
+    margin: auto;
+    order: 3;
+  }
+  
+  .seksjon4overskrift2 {
+    display: none;
+  }
+
+  .seksjon4overskrift1 {
+    display: block;
+    padding-top: 50px;
+    font-size: 2vmax;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    order: 1;
+  }
+
+
+  .soMe {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .soMe h2 {
+    margin: 0 auto;
+  }
+  .soMe-container {
+    margin: 0 auto;
+  }
+  
+}
+
+
