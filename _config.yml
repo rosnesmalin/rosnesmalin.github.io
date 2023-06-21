@@ -1,0 +1,4 @@
+remote_theme: [rosnesmalin]/[rosnesmalin.github.io]
+
+plugins:
+  - jekyll-optional-front-matter
