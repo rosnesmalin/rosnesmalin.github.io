@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #efefef;
+    position: static;
+  }
+
+  .informasjon {
+    height: 600px;
+    text-align: center;
+}
+
+.informasjon, h1 p {
+    padding: 130px;
+}
+
+.informasjon p {
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+  
+  .soMe-container img {
+    height: 5vmax;
+  }
+
+  .instagram {
+    margin-left: 30px;
+  }
+
