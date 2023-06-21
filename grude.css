@@ -21,14 +21,13 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-left: -100px;
   }
 
   
   nav ul {
     list-style: none;
     display: flex;
-    gap: 6vmax;
+    gap: 5vmax;
     font-size: 1.8vmin;
   }
 
