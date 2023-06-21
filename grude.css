@@ -14,7 +14,7 @@
     height: 17vmin;
     background-color: #f5f5f5;
     padding: 0.5rem 2rem 0.5rem 2rem;
-    z-index: 1000;
+    z-index: 900;
   }
   
   nav {
@@ -57,7 +57,6 @@
   .logo2:hover { 
     transform: scale(1.12);
   }
-
 
   
   nav ul a {
