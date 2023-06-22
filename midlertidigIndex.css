@@ -697,7 +697,9 @@ h4 {
   #overskrift1 {
     display: block;
     font-size: 3vmax;
-    margin-bottom: 20px;
+    margin: auto;
+    width: 100%;
+    text-align: center;
   }
 
   #overskrift2 {
@@ -763,6 +765,24 @@ h4 {
     order: 1;
   }
 
+
+  .animasjonFraHøyre{
+    position: relative;
+  transform: translateY(150px);
+    transition: 0.9s all ease;
+  }
+  .animasjonFraHøyre.active{
+    transform: translateY(0);
+  }
+  
+  .animasjonFraVenstre{
+    position: relative;
+    transform: translateY(150px);
+    transition: 0.9s all ease;
+  }
+  .animasjonFraVenstre.active{
+    transform: translateY(0);
+  }
 
   .soMe {
     display: flex;
