@@ -58,7 +58,6 @@
     transform: scale(1.05);
   }
 
-
   
   nav ul a {
     color: #3d3d3d;
@@ -654,10 +653,13 @@ h4 {
   }
 
   .logo2 { 
-    height: 23vmin;
+    height: 30vmin;
     display: block;
-    margin: 0px auto;
-    margin-bottom: -100px;
+    margin: auto;
+    padding-top: 25px;
+    margin-bottom: -120px;
+    
+
   }
 
   #myModal {
