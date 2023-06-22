@@ -560,7 +560,7 @@ h4 {
 
   .footer{
       flex-direction: column;
-      font-size:2.5vmin;
+      font-size: 2vmax;
 }
   
   .footer-venstre, .footer-midten, .footer-høyre{
@@ -586,11 +586,11 @@ h4 {
 
   h4 {
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 2vmax;
   }
 
   .footer-midten p {
-    font-size: 11px;
+    font-size: 1.8vmax;
   }
 
 
@@ -606,6 +606,7 @@ h4 {
     font-size: 50%;
   }
 
+
   #navbar {
     z-index: 200;
   }
@@ -619,7 +620,6 @@ h4 {
   }
   nav ul {
     background-color:#EBECEB;
-    font-size: 1.8rem;
     gap: 0;
     position: fixed;
     left: -100vw;
@@ -643,17 +643,25 @@ h4 {
   }
 
   .logo2 { 
-    height: 15vmin;
+    height: 20vmin;
     display: block;
     margin: 0px auto;
     margin-bottom: -100px;
   }
 
 
-
   .seksjon1 {
     height: auto;
-    padding: 30px;
+    padding: 50px;
+  }
+
+  .seksjon1tekst p {
+    font-size: 2vmax;
+    width: 90%;
+  }
+
+  .seksjon1tekst h1 {
+    font-size: 2.8vmax;
   }
 
   .seksjon1tekst {
@@ -690,13 +698,13 @@ h4 {
       padding: 2vmax 0 2vmax 0;
       width: 70%;
       margin: auto;  
-      font-size: 1.4vmax;
       margin-bottom: 20px;
+      font-size: 2vmax;
   }
   
   #overskrift1 {
     display: block;
-    font-size: 3vmax;
+    font-size: 2.8vmax;
     margin: auto;
     width: 100%;
     text-align: center;
@@ -708,24 +716,33 @@ h4 {
 
  
   .seksjon2tekst button {
-    font-size: 1.2vmax;
+    font-size: 2vmax;
     height: auto;
     width: 8rem;
-    padding: 1vmax;
+    padding: 1vmax 2vmax 1vmax 2vmax;
+    width: auto;
   }
 
-
   .seksjon3 {
-    height: 55vmax;
+    height: auto;
     padding: 50px;
   }
 
   .seksjon3 h1 {
     width: 95%;
+    font-size: 2.8vmax;
   }
 
   .seksjon3 p {
     width: 80%;
+    font-size: 2vmax;
+  }
+
+  .seksjon3 button {
+    font-size: 2vmax;
+    height: auto;
+    padding: 1vmax 2vmax 1vmax 2vmax;
+    width: auto;
   }
 
   .seksjon4 {
@@ -750,6 +767,10 @@ h4 {
     margin: auto;
     order: 3;
   }
+
+  .seksjon4tekst p {
+    font-size: 2vmax;
+  }
   
   .seksjon4overskrift2 {
     display: none;
@@ -758,11 +779,18 @@ h4 {
   .seksjon4overskrift1 {
     display: block;
     padding-top: 50px;
-    font-size: 2vmax;
+    font-size: 2.8vmax;
     text-align: center;
     width: 90%;
     margin: auto;
     order: 1;
+  }
+
+  .seksjon4tekst button {
+    font-size: 2vmax;
+    height: auto;
+    padding: 1vmax 2vmax 1vmax 2vmax;
+    width: auto;
   }
 
 
@@ -791,6 +819,7 @@ h4 {
   
   .soMe h2 {
     margin: 0 auto;
+    font-size: 2.8vmax;
   }
   .soMe-container {
     margin: 0 auto;
