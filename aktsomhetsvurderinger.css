@@ -46,7 +46,7 @@ p, a, h1, h2 {
     font-size: 3vmax;
   }
 
-  p{
+  p, a{
     font-size: 2vmax;
   }
 
