@@ -831,11 +831,13 @@ h4 {
   .soMe {
     display: flex;
     flex-direction: column;
+  
   }
   
   .soMe h2 {
     margin: 0 auto;
     font-size: 2.8vmax;
+    text-align: center;
   }
   .soMe-container {
     margin: 0 auto;
