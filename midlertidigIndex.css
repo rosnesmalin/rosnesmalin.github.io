@@ -605,8 +605,9 @@ h4 {
   html {
     font-size: 50%;
   }
-
-
+  .hero {
+    height: 550px;
+  }
   #navbar {
     z-index: 200;
   }
@@ -824,7 +825,7 @@ h4 {
   .soMe-container {
     margin: 0 auto;
   }
-  
+
   
 }
 
