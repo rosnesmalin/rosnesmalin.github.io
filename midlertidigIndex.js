@@ -80,7 +80,7 @@ function reveal() {
     }
   }
 }
-window.addEventListener("scroll", reveal);
+
 
 
 /* animasjon fra venstre */
@@ -90,7 +90,7 @@ function reveal2() {
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 70;
+    var elementVisible = 30;
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
@@ -100,7 +100,7 @@ function reveal2() {
   }
 }
 
-window.addEventListener("scroll", reveal2);
+
 
 /* animasjon fra høyre */
 function reveal3() {
@@ -109,7 +109,7 @@ function reveal3() {
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 70;
+    var elementVisible = 30;
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
@@ -119,4 +119,6 @@ function reveal3() {
   }
 }
 
+window.addEventListener("scroll", reveal);
 window.addEventListener("scroll", reveal3);
+window.addEventListener("scroll", reveal2);

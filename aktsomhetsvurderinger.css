@@ -33,14 +33,17 @@ h2 {
     font-weight: bold;
 }
 
-p, a, h1, h2 {
+p, h1, h2, #rapport {
   margin: 20px;
 }
+
+
 
 @media only screen and (max-width:1000px){
 
   .bilde {
     width: 90%;
+
   }
 
   h1 {

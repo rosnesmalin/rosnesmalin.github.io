@@ -5,6 +5,7 @@
     line-height: 1.5;
     font-weight: 10;
     letter-spacing: 0.8px;
+    
   }
  
   
@@ -13,17 +14,18 @@
   .home-page #navbar {
     width: 100%;
     z-index: 200;
+    background-color: #f8f8f8;
   }
   
   #navlinks {
     display: flex;
-    background-color: #f8f8f8;
     justify-content: center; 
     align-items: center;
-    padding-top: 70px;
+    padding-top: 80px;
+    padding-bottom: 30px;
   }
 
-  
+
   #navlinks ul {
     list-style: none;
     display: flex;
@@ -71,9 +73,8 @@
   #ham-menu {
     display: none;
     position: absolute;
-    top: 1rem;
-    right: 1rem;
-  
+    top: 3rem;
+    right: 3rem;
   }
   
   nav ul.active {
@@ -90,7 +91,7 @@
     background-position: center;
     background-size: cover;
     width: 100%;
-    padding-top: 70vmin;
+    padding-top: 60vmin;
 }
 
 
@@ -478,7 +479,7 @@ h4 {
 
 .animasjonFraHøyre{
   position: relative;
-  transform: translateX(650px);
+  transform: translateX(250px);
   transition: 1.5s all ease;
 }
 .animasjonFraHøyre.active{
@@ -487,7 +488,7 @@ h4 {
 
 .animasjonFraVenstre{
   position: relative;
-  transform: translate(-650px);
+  transform: translate(-250px);
   transition: 1.5s all ease;
 }
 .animasjonFraVenstre.active{
@@ -515,9 +516,8 @@ h4 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 999; /* Pass på at z-indeksen er høyere enn bakgrunnen */
-  /* Andre stiler for popupmeldingen */
-
+  z-index: 999;
+  display: none;
 }
 
 
@@ -626,7 +626,8 @@ h4 {
   }
   
   nav a#logo, #ham-menu {
-    font-size: 3.8rem;
+    font-size: 4.8rem;
+    
   }
   nav ul {
     background-color:#EBECEB;
@@ -653,7 +654,7 @@ h4 {
   }
 
   .logo2 { 
-    height: 20vmin;
+    height: 23vmin;
     display: block;
     margin: 0px auto;
     margin-bottom: -100px;
@@ -670,6 +671,10 @@ h4 {
   #myModal h3 {
     font-size: 2.8vmax;
     }
+
+  #closeBtn {
+    color: #000000;
+  }
 
   .seksjon1 {
     height: auto;
