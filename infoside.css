@@ -1,7 +1,4 @@
-.navbar {
-    background-color: #efefef;
-    position: static;
-  }
+
 
   .informasjon {
     height: 600px;
@@ -26,3 +23,31 @@
     margin-left: 30px;
   }
 
+  @media only screen and (max-width:1000px){
+   
+  
+  .informasjon, h1 p {
+    padding: 50px;
+    padding-top: 100px;
+      font-size: 2vmax;
+  }
+  
+  .informasjon p {
+      width: 90%;
+      margin: auto;
+      margin-top: 40px;
+  }
+
+  .soMe-container {
+    justify-content: center;
+  }
+    
+  .soMe-container img {
+    height: 10vmax;
+  }
+
+  .instagram {
+    margin: 0 auto;
+  }
+
+}
