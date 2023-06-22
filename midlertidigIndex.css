@@ -7,7 +7,6 @@
     letter-spacing: 0.8px;
   }
  
-
   
   /* navbar start */
 
@@ -597,6 +596,13 @@ h4 {
     font-size: 1.8vmax;
   }
 
+  a {
+  font-size: 2vmax;
+  }
+
+  #vårreise {
+    margin-top: -27px;
+  }
 
 
  
@@ -621,7 +627,7 @@ h4 {
   }
   
   nav a#logo, #ham-menu {
-    font-size: 3.2rem;
+    font-size: 3.8rem;
   }
   nav ul {
     background-color:#EBECEB;
@@ -654,6 +660,9 @@ h4 {
     margin-bottom: -100px;
   }
 
+  #myModal {
+    width: 80%;
+  }
 
   .seksjon1 {
     height: auto;

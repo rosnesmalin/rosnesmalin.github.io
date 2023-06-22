@@ -38,6 +38,11 @@ p, a, h1, h2 {
 }
 
 @media only screen and (max-width:1000px){
+
+  .bilde {
+    width: 90%;
+  }
+
   h1 {
     font-size: 3.5vmax;
   }
