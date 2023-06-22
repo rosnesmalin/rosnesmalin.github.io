@@ -225,6 +225,10 @@
   transform: scale(1.05);
 }
 
+.seksjon2tekst2{
+  display: none;
+}
+
 /* tekst seksjon 3 */
 
 .seksjon3 {
@@ -689,13 +693,19 @@ h4 {
   }
   
   .seksjon2tekst {
+    display: none;
+  }
+
+  .seksjon2tekst2 {
+    display: block;
     width: 100%;
     text-align: center;
     padding: 30px;
-    order: 1;
+    order: 3;
+    margin-bottom: 20px;
   }
   
-  .seksjon2tekst p {
+  .seksjon2tekst2 p {
       padding: 2vmax 0 2vmax 0;
       width: 70%;
       margin: auto;  
@@ -706,17 +716,13 @@ h4 {
   #overskrift1 {
     display: block;
     font-size: 2.8vmax;
-    margin: auto;
+    margin: 20px auto;
     width: 100%;
     text-align: center;
   }
 
-  #overskrift2 {
-    display: none;
-  }
-
  
-  .seksjon2tekst button {
+  .seksjon2tekst2 button {
     font-size: 2vmax;
     height: auto;
     width: 8rem;
@@ -780,7 +786,7 @@ h4 {
   .seksjon4overskrift1 {
     display: block;
     padding-top: 50px;
-    font-size: 2.8vmax;
+    font-size: 2vmax;
     text-align: center;
     width: 90%;
     margin: auto;
