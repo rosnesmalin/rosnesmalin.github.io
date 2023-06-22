@@ -13,18 +13,15 @@
 
   .home-page #navbar {
     width: 100%;
-    height: 17vmin; 
     z-index: 200;
-    position: fixed;
-
   }
   
   #navlinks {
     display: flex;
-    background-color: #f3f2f2;
+    background-color: #f8f8f8;
     justify-content: center; 
     align-items: center;
-    padding-top: 60px;
+    padding-top: 70px;
   }
 
   
@@ -104,22 +101,27 @@
 /* tekst seksjon 1 */
 
 .seksjon1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #eae9e9;
-    text-align: center;
-    height: 38vmax;
+  background-color: #f0efef;
+  height: 38vmax;
+  justify-content: center;
+}
+
+.seksjon1tekst {
+  padding-top: 100px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 
-.seksjon1 h1{
+.seksjon1 h1 {
   font-size: 2vmax;
   font-weight: 100;
   color: #000000;
   width: 70%;
 }
+
 
 .seksjon1 p{
   font-size: 1.2vmax;
@@ -165,16 +167,15 @@
 /* seksjon 2 "71 mål med grønn glede" boks*/
 .seksjon2 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   width: 100%;
-  margin:170px auto; /* Setter 'auto' på 'margin' for å midtstille horisontalt */
-  height: 500px;
+  margin:170px auto; 
+  height: 300px;
 }
 
 
 .seksjon2bilder {
-  width: 60%;
+  width: 160%;
   height: 30vmax;
 }
 
@@ -185,20 +186,13 @@
   background-size: cover;
 }
 
-#bilde2 {
-  background-image: url("produksjon.jpeg") ;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
 .seksjon2tekst{
-  width: 30%;
+  width: 100%;
   padding: 20px 20px 20px 80px;
 }
 
 .seksjon2tekst p {
-  width: 90%;
+  width: 80%;
   font-size: 1.2vmax;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -288,7 +282,7 @@ width: 40%;
   align-items: center;
   width: 100%;
   margin: -20px auto;
-  height: 600px;
+  height: 700px;
   background-color: #eeeded;
 }
 
@@ -320,6 +314,7 @@ width: 40%;
   margin: 100px 100px 100px 0;
 }
 
+
 .seksjon4 img {
   height: 10vmin;
   width: 10vmin;
@@ -335,7 +330,7 @@ width: 40%;
 .seksjon4overskrift2 {
   width: 100%;
   padding-top: 20px;
-  font-size: 2vmax;
+  font-size: 1.5vmax;
   font-weight: 100;
 }
 
@@ -468,6 +463,33 @@ h4 {
 }
 
 
+/* animajsoner */
+.animasjonOpp{
+  position: relative;
+  transform: translateY(150px);
+  transition: 0.9s all ease;
+}
+.animasjonOpp.active{
+  transform: translateY(0);
+}
+
+.animasjonFraHøyre{
+  position: relative;
+  transform: translateX(550px);
+  transition: 0.9s all ease;
+}
+.animasjonFraHøyre.active{
+  transform: translateX(0);
+}
+
+.animasjonFraVenstre{
+  position: relative;
+  transform: translate(-550px);
+  transition: 0.9s all ease;
+}
+.animasjonFraVenstre.active{
+  transform: translateZ(0);
+}
 
 
 
@@ -585,7 +607,6 @@ h4 {
   }
 
   #navbar {
-    height: 15vmin;
     z-index: 200;
   }
   #ham-menu {
@@ -612,6 +633,10 @@ h4 {
     transition: 0.7s;
   }
 
+  #navlinks {
+    padding-top: 100px;
+  }
+
   #logo {
     margin-bottom: -100px;
     display: none;
@@ -624,9 +649,15 @@ h4 {
     margin-bottom: -100px;
   }
 
+
+
   .seksjon1 {
     height: auto;
     padding: 30px;
+  }
+
+  .seksjon1tekst {
+    padding-top: 0px;
   }
 
   .seksjon2 {

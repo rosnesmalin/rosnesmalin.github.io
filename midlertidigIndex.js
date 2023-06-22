@@ -64,17 +64,59 @@ $(document).ready(function(){
 })
 
 
-// bildekarusell
-window.onscroll = function() { changeImage() }
+/* animasjon opp */
+function reveal() {
+  var reveals = document.querySelectorAll(".animasjonOpp");
 
-function changeImage() {
-  var scroll = window.scrollY + (window.innerHeight/2);
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 50;
 
-  [...document.getElementsByClassName('section')].forEach(el => {
-    el.classList.remove('active');
-
-    if(el.offsetTop <= scroll && el.offsetTop + el.offsetHeight > scroll) {
-      el.classList.add('active');
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
     }
-  })
-} changeImage();
+  }
+}
+window.addEventListener("scroll", reveal);
+
+
+/* animasjon fra venstre */
+function reveal2() {
+  var reveals = document.querySelectorAll(".animasjonFraVenstre");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 70;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal2);
+
+/* animasjon fra høyre */
+function reveal3() {
+  var reveals = document.querySelectorAll(".animasjonFraHøyre");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 70;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal3);
