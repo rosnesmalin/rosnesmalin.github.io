@@ -33,7 +33,7 @@ h2 {
     font-weight: bold;
 }
 
-p, h1, h2, #rapport {
+.informasjon p, h1, h2, #rapport {
   margin: 20px;
 }
 

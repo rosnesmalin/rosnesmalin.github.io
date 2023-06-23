@@ -9,26 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato&display=swap">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-   
-
-
-    <!-- Meny-knapp -->
-    <link rel="stylesheet" 
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
+    <script src="midlertidigIndex.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body class="home-page">  
-  <script src="midlertidigIndex.js"></script>
 
- <!-- navbar start -->
-  
+
+<body class="home-page">  
+ 
+ <!-- navbar  -->
  <header id="navbar">
-  <a href="index.html"><img class="logo2" src="logo.png" alt="logo Grude Gartneri"></a>
+  <a href="index.html"><img class="logoMobil" src="logo.png" alt="logo Grude Gartneri"></a>
+  
   <nav id="navlinks">
     <ul>
       <li><a href="infoside.html" id="en">Produksjon</a></li>
       <li><a href="infoside.html">Gartneriutsalg</a></li>
-      <a href="index.html"><img id="logo" src="logo.png" alt="logo Grude Gartneri"></a>
+      <a href="index.html"><img id="logoDesktop" src="logo.png" alt="logo Grude Gartneri"></a>
       <li id="vårreise"><a href="infoside.html">Vår reise</a></li> 
       <li><a href="infoside.html">Vårt team</a></li> 
       <li><a href="infoside.html">Kontakt</a></li>
@@ -38,60 +34,57 @@
 </header>
 
 <!-- hero -->
-<section class="hero">
-</section>
+<section class="hero"></section>
 
 <!-- pop-up melding-->
-<div id="myModal">
-  <div class="modal-top">
+
+<div id="overlay"></div>
+<div id="infoMelding">
+
+  <div class="infoMelding-top">
     <button id="closeBtn">x</button>
   </div>
-  <div class="modal-content">
+  
+  <div class="infoMelding-innhold">
     <h3>Velkommen til Grude Gartneris nettsider!</h3>
     <p>Vi vil informere om at nettsiden  er under utvikling og ikke helt ferdigstilt.</p>
     <p> I mellomtiden kan du finne våre aktsomhetsvurderinger (i henhold til åpenhetsloven) via menyen nederst på siden.</p>
     <p>Vi gleder oss til å presentere den endelige nettsiden veldig snart!</p>
   </div>
+
 </div>
 
-<div id="overlay"></div>
 
 
 <!--Teskt seksjon - Introduksjon-->
 <section class="seksjon1">
-  <div class="seksjon1tekst">
+
     <h1>Et gartneri med lange tradisjoner</h1>
     <p id="introduksjonstekst1"> Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione </p>
     <p> Rror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi </p>
+    
     <div class="ikon-container">
       <img src="ikon4.png" class="ikon">
       <img src="ikon2.png" class="ikon">
       <img src="ikon1.png" class="ikon">
       <img src="ikon3.png" class="ikon">
     </div>
-</div>
+
 </section> 
 
 
-<!--Bilde/tekst seksjon - 71 mål med grønn glede -->
+<!--seksjon2 -Bilde/tekst seksjon - 71 mål med grønn glede -->
 
 <section class="seksjon2 animasjonOpp">
  
-  <div class="seksjon2bilder animasjonFraVenstre">
+  <div class="seksjon2bilde animasjonFraVenstre">
       <div id="bilde1"></div>
-      <!-- <div id="bilde2"></div> -->
   </div>
 
-  <div class="animasjonFraHøyre">
-    <h2 id="overskrift1"> 71 mål med grønn glede </h2>
-    <div class="seksjon2tekst"> 
-      <h2 id="overskrift2"> 71 mål med grønn glede </h2>
-      <p> Pkor sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa </p>
-      <a href="infoside.html"><button>  Les mer </button></a>
-    </div>
-  </div>
-
-  <div class="seksjon2tekst2"> 
+  <h2 class="animasjonFraHøyre" id="seksjon2overskrift1"> 71 mål med grønn glede </h2>
+  
+  <div class="seksjon2tekst"> 
+    <h2 id="seksjon2overskrift2"> 71 mål med grønn glede </h2>
     <p> Pkor sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa </p>
     <a href="infoside.html"><button>  Les mer </button></a>
   </div>
@@ -99,36 +92,42 @@
 </section>
 
 <!--Teskt seksjon 3 - Introduksjon-->
-<img src="olaug.jpeg" class ="seksjon3bilde animasjonOpp">
-<section class="seksjon3 animasjonOpp">
+<section class="seksjon3">
+
+<div class ="seksjon3bilde animasjonOpp"></div>
+
+<div class="seksjon3tekst animasjonOpp">
   <img src="planteikon.png" class="seksjon3ikon"> 
   <h1>Besøk vårt trivelige garterniutsalg i hjertet av Jæren</h1>
   <p id="introduksjonstekst3"> Por sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa </p>
   <a href="infoside.html"><button>  Se mer </button></a>
-</section> 
+</div> 
 
+</section>
 
 
 <!--Teskt seksjon 4 - vårt team -->
 <section class="seksjon4">
+  
   <div class="seksjon4overskrift1 animasjonFraVenstre"> 
-      <img src="sammen.png">
-    <h2> Teamet vårt   </h2>
+    <img src="sammen.png" class="seksjon4ikon">
+    <h2> Teamet vårt </h2>
   </div>
 
   <div class="seksjon4tekst animasjonFraVenstre"> 
+
     <div class="seksjon4overskrift2"> 
-      <img src="sammen.png">
+      <img src="sammen.png" class="seksjon4ikon">
       <h2> Teamet vårt   </h2>
     </div>
+
     <p> Pkor sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi ror sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa </p>
     <a href="infoside.html"><button>  Les mer </button></a>
+
   </div>
 
-    <div class="seksjon4bilde animasjonFraHøyre">
-      <div id="vårtTeam"></div>
-      <!-- <div id="bilde2"></div> -->
-  </div>
+  <div class="seksjon4bilde animasjonFraHøyre"></div>
+    
 </section>
 
 <!-- sosiale medier -->
@@ -144,7 +143,7 @@
 <footer class="footer">
 
   <div class="footer-venstre">
-    <a href="index.html"><img src="logo.png" alt="logo Grude Gartneri"></a>
+    <a href="index.html"><img src="logo.png" alt="logo Grude Gartneri" class="logoFooter"></a>
   </div>
 
   <div class="footer-midten">
