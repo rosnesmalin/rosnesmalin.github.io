@@ -55,7 +55,7 @@ $(document).ready(function(){
 		var is_modal_show = sessionStorage.getItem('alreadyShow');
 		if(is_modal_show != 'alredy shown'){
       $("#overlay").show();
-			$("#myModal").show()
+			$("#infoMelding").show()
 			sessionStorage.setItem('alreadyShow','alredy shown');
 		}else{
 			console.log(is_modal_show);
