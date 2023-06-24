@@ -34,34 +34,35 @@ function scrollFunction() {
 }
 */
 
+// pop up melding :
 
 // når siden lastes inn trigges denne funkjsonen (readyfunksjon)
-$(document).ready(function(){
+  $(document).ready(function(){
 
-	// viser meldingen etter det har gått 1 sek
-	setTimeout(showModal,1500);
-  // når knappen trykkes på skjules meldingen
-	$("#closeBtn").click(function(){
-		$("#myModal").hide()
-    $("#overlay").hide();
-	})
+    // viser meldingen etter det har gått 1 sek
+    setTimeout(showModal,1500);
+    // når knappen trykkes på skjules meldingen
+    $("#closeBtn").click(function(){
+      $("#infoMelding").hide()
+      $("#overlay").hide();
+    })
 
-	function showModal(){
-		// henter verdi fra "localStorage", som er en måte å lagre små mengder informasjon på 
-    //datamaskinen til brukeren når de besøker en nettside. 
-    // Denne informasjonen blir lagret lokalt og kan hentes frem senere, selv etter at 
-    // brukeren har lukket nettleservinduet og åpnet det igjen.
+    function showModal(){
+      // henter verdi fra "localStorage", som er en måte å lagre små mengder informasjon på 
+      //datamaskinen til brukeren når de besøker en nettside. 
+      // Denne informasjonen blir lagret lokalt og kan hentes frem senere, selv etter at 
+      // brukeren har lukket nettleservinduet og åpnet det igjen.
 
-		var is_modal_show = sessionStorage.getItem('alreadyShow');
-		if(is_modal_show != 'alredy shown'){
-      $("#overlay").show();
-			$("#infoMelding").show()
-			sessionStorage.setItem('alreadyShow','alredy shown');
-		}else{
-			console.log(is_modal_show);
-		}
-	}
-})
+      var is_modal_show = sessionStorage.getItem('alreadyShow');
+      if(is_modal_show != 'alredy shown'){
+        $("#overlay").show();
+        $("#infoMelding").show()
+        sessionStorage.setItem('alreadyShow','alredy shown');
+      }else{
+        console.log(is_modal_show);
+      }
+    }
+  })
 
 
 /* animasjon opp */
