@@ -40,6 +40,7 @@
     align-items: center;
     padding-top: 80px;
     padding-bottom: 30px;
+    margin-left: -100px;
   }
 
 
@@ -75,7 +76,6 @@
     transform: scale(1.05);
   }
 
-  
   nav ul a {
     color: #3d3d3d;
     text-decoration: none;
@@ -141,11 +141,6 @@
   margin: 0 auto;
 }
 
-#introduksjonstekst1 { /* funker ikke */
-  font-weight: bolder;
-}
-
-
 .ikon-container {
   display: flex;
   justify-content: center;
@@ -197,7 +192,6 @@
   font-size: 1.2vmax;
   width: 80%;
   padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 
@@ -216,7 +210,7 @@
 
 .seksjon3bilde {
   background-image:  url(olaug.jpeg);
-  background-repeat: no-repeat;
+  background-size: cover;
   display: block;
   height: auto;
   width: 5%;
@@ -258,6 +252,8 @@ width: 60%;
 .seksjon3tekst button {
   background-color: #f2f2f2;
   color: #000000;
+  width: auto;
+  padding: 5px 20px 5px 20px;
  }
 
 
@@ -307,12 +303,12 @@ width: 60%;
 }
 
 
-
 .seksjon4bilde {
   width: 35vmax;
   height: 35vmax;
   background-size: cover;
   background-image: url("ansatte.jpeg") ;
+  
 }
 
 /* sosiale medier */
@@ -606,6 +602,10 @@ h4 {
     padding-top: 100px;
   }
 
+  #logoDesktop {
+    display: none;
+  }
+  
   .logoMobil { 
     height: 30vmin;
     display: block;
@@ -642,18 +642,15 @@ h4 {
     padding: 50px;
   }
 
-  .seksjon1tekst p {
+  .seksjon1 p {
     font-size: 2vmax;
     width: 90%;
   }
 
-  .seksjon1tekst h1 {
+  .seksjon1 h1 {
     font-size: 2.8vmax;
   }
 
-  .seksjon1tekst {
-    padding-top: 0px;
-  }
 
    /* seksjon 2 */
   .seksjon2 {
@@ -736,6 +733,10 @@ h4 {
   .seksjon3tekst p {
     width: 100%;
     font-size: 2vmax;
+  }
+
+  .seksjon3 button {
+    margin-bottom: 30px;
   }
 
  /* seksjon 4 */
