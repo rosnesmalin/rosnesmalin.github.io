@@ -123,3 +123,80 @@ function reveal3() {
 window.addEventListener("scroll", reveal);
 window.addEventListener("scroll", reveal3);
 window.addEventListener("scroll", reveal2);
+
+
+// cookie policy
+// Create cookie
+function setCookie(cname, cvalue, exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+// Delete cookie
+function deleteCookie(cname) {
+  const d = new Date();
+  d.setTime(d.getTime() + (24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=;" + expires + ";path=/";
+}
+
+// Read cookie
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+          return c.substring(name.length, c.length);
+      }
+  }
+  return "";
+}
+
+// Set cookie consent
+(() => {
+  const getCookie = (name) => {
+    const value = " " + document.cookie;
+    console.log("value", `==${value}==`);
+    const parts = value.split(" " + name + "=");
+    return parts.length < 2 ? undefined : parts.pop().split(";").shift();
+  };
+
+  const setCookie = function (name, value, expiryDays, domain, path, secure) {
+    const exdate = new Date();
+    exdate.setHours(
+      exdate.getHours() +
+        (typeof expiryDays !== "number" ? 365 : expiryDays) * 24
+    );
+    document.cookie =
+      name +
+      "=" +
+      value +
+      ";expires=" +
+      exdate.toUTCString() +
+      ";path=" +
+      (path || "/") +
+      (domain ? ";domain=" + domain : "") +
+      (secure ? ";secure" : "");
+  };
+
+  const $cookiesBanner = document.querySelector(".cookies-eu-banner");
+  const $cookiesBannerButton = $cookiesBanner.querySelector("button");
+  const cookieName = "cookiesBanner";
+  const hasCookie = getCookie(cookieName);
+
+  if (!hasCookie) {
+    $cookiesBanner.classList.remove("hidden");
+  }
+
+  $cookiesBannerButton.addEventListener("click", () => {
+    setCookie(cookieName, "closed");
+    $cookiesBanner.remove();
+  });
+})();
