@@ -1,0 +1,74 @@
+  
+  .informasjon {
+    height: auto;
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.informasjon p {
+   width: 60%;
+   margin-bottom: 50px;
+}
+
+
+.informasjon h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.informasjon h2 {
+    font-size: 25px;
+    font-weight: bold;
+    width: 60%;
+}
+
+.informasjon h3 {
+    font-size: 18px;
+    font-weight: bold;
+    width: 60%;
+}
+
+.informasjon a {
+    width: 60%;
+}
+
+
+
+@media only screen and (max-width:1000px){
+
+ .informasjon{
+    margin: 0px;
+}  
+
+.informasjon h1 {
+    font-size: 3.5vmax;
+    margin-top: 90px;
+  }
+
+  .informasjon h2 {
+    font-size: 3vmax;
+    margin-top: 30px;
+  }
+
+  .informasjon h3 {
+    font-size: 2.3vmax;
+  }
+
+  .informasjon p, a{
+    font-size: 2vmax;
+  }
+
+  .informasjon p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .footer {
+    margin-top: 200px;
+  }
+ }

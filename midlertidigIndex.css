@@ -39,7 +39,7 @@
     justify-content: center; 
     align-items: center;
     padding-top: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 10px; /* endre til 30 når linkene kommer på plass */
     margin-left: -100px;
   }
 
@@ -422,6 +422,10 @@ h4 {
   transform: scale(1.02);
 }
 
+#åpenhetslovenLink {
+  margin-bottom: 100px;
+}
+
 
 /* animajsoner */
 .animasjonOpp{
@@ -502,6 +506,8 @@ h4 {
   color: #000000;
   margin-top: -20px;
 }
+
+
 
 
 /*mobile device*/
