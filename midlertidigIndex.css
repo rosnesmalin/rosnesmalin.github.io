@@ -202,7 +202,9 @@
 
 
 /* tekst seksjon 3 */
-
+.seksjon3mobil {
+  display: none;
+}
 .seksjon3 {
   display: flex;
   height: 600px;
@@ -710,40 +712,45 @@ h4 {
   }
   
    /* seksjon 3 */
-  .seksjon3tekst {
-    height: auto;
-    padding: 30px;
-    margin: 0 15px 80px 50px;
-  }
-
-  .seksjon3 {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .seksjon3bilde {
-    height: 90vmin;
-    width: 80vmin;
-    transform: scaleX(1);
-    margin-top: -50px;
-  }
-
-  .seksjon3bilde2 {
+   .seksjon3 {
     display: none;
-  }
+   }
 
-  .seksjon3tekst h1 {
-    width: 95%;
-    font-size: 2.8vmax;
-  }
-
-  .seksjon3tekst p {
+   .seksjon3mobil {
+    display: block;
     width: 100%;
+   }
+
+   .seksjon3bilde {
+    height: 90vmin;
+    margin: 30px;
+    width: 70%;
+    transform: scaleX(1);
+    margin-top: 100px;
+    z-index: -1;
+  }
+
+  .seksjon3mobilTekst {
+    background-color: #4F8966;
+    color: white;
+    text-align: center;
+    height: auto;
+    padding: 50px;
+    margin: -100px 15px 90px 70px;
+  }
+
+  
+  .seksjon3mobilTekst h1 {
+    font-size: 2.8vmax;
+    margin-bottom: 20px;
+  }
+
+  .seksjon3mobilTekst p {
     font-size: 2vmax;
   }
 
   .seksjon3ikon {
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
   .seksjon3 button {
@@ -797,16 +804,20 @@ h4 {
   .soMe {
     display: flex;
     flex-direction: column;
-  
   }
 
   .soMe h2 {
     margin: 0 auto;
     font-size: 2.8vmax;
     text-align: center;
+    width: 60%;
   }
   .soMe-container {
     margin: 0 auto;
+  }
+
+  .soMe img {
+    height: 100px;
   }
 
   /* animasjoner */
