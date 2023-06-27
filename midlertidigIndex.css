@@ -733,10 +733,13 @@ h4 {
     width: 90%;
     margin: 0px auto;
     border-radius: 10px;
+    height: 500px;
+    margin-top: 300px;
   }
 
   #bilde4 {
     display: block;
+    margin-top: 0px;
   }
 
   .seksjon2tekst {
@@ -800,7 +803,7 @@ h4 {
     text-align: center;
     height: auto;
     padding: 50px;
-    margin: 100px 15px 90px 70px;
+    margin: 300px 15px 90px 70px;
   }
 
   
