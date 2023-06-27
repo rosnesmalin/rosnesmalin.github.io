@@ -118,7 +118,7 @@
 
 .seksjon1 {
   background-color: #f0efef;
-  height: 38vmax;
+  height: auto;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -155,35 +155,73 @@
 
 
 /* seksjon 2 "71 mål med grønn glede" boks*/
+
 .seksjon2 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin:170px auto; 
-  height: 300px;
+  height: auto;
 }
 
+.bilde1ogtekst {
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  margin-top: 150px;
+}
 
-.seksjon2bilde {
-  width: 160%;
-  height: 30vmax;
+.seksjon2tekst {
+  height: auto;
+  font-size: 20px;
+  width: 50%;
+  padding: 0px 20px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
 }
 
 #bilde1 {
+  height: 500px;
   background-image: url("bilde1.png") ;
-  height: 100%;
-  width: 100%;
+  width: 50%;
   background-size: cover;
 }
 
-.seksjon2tekst{
-  width: 100%;
-  padding: 20px 20px 20px 80px;
+#bilde4 {
+  display: none;
 }
+
+.seksjon2bilde {
+  height: 500px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px;
+  margin-top: 100px;
+}
+
+
+#bilde2 {
+  background-image: url("produksjon.jpeg") ;
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+
+#bilde3 {
+  background-image: url("produksjon.webp") ;
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+
+#bilde4 {
+  background-image: url("bilde1.png") ;
+  height: 100%;
+  width: 50%;
+  background-size: cover;
+}
+
 
 .seksjon2overskrift2 {
   width: 100%;
-  padding-top: 20px;
   font-size: 2vmax;
   font-weight: 100;
 }
@@ -195,10 +233,6 @@
 }
 
 
-#seksjon2overskrift1{
-  display: none;
-}
-
 
 
 /* tekst seksjon 3 */
@@ -206,6 +240,7 @@
   display: none;
 }
 .seksjon3 {
+  margin-top: 100px;
   display: flex;
   height: 600px;
   background-color: #528D72;
@@ -367,6 +402,10 @@ width: 60%;
   line-height: 2;
 }
 
+.logoFooter {
+  height: 13vmin;
+}
+
 .logoFooter:hover {
   transform: scale(1.02);
 }
@@ -458,6 +497,12 @@ h4 {
   transform: translateZ(0);
 }
 
+.bildeKarusell{
+  transition: opacity 0.5s ease;
+}
+.bildeKarusell:hover{
+  opacity: 1;
+}
 
 /* pop-up informasjonsmelding */
 
@@ -521,6 +566,10 @@ h4 {
   .footer{
       flex-direction: column;
       font-size: 2vmax;
+}
+
+.logoFooter {
+  height: 23vmin;
 }
   
   .footer-venstre, .footer-midten, .footer-høyre{
@@ -610,7 +659,7 @@ h4 {
   }
 
   #navlinks {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 
   #logoDesktop {
@@ -664,47 +713,60 @@ h4 {
 
 
    /* seksjon 2 */
-  .seksjon2 {
-    display: flex;
+
+ 
+  .bilde1ogtekst {
     flex-direction: column;
     align-items: center;
+    text-align: center;
     padding: 0px;
     height: auto;
-    width: 90%;
-    border-radius: 5px;
-    margin: 50px auto;
+    width: 100%;
+    position: relative;
   }
   
-  #seksjon2overskrift1 {
-    display: block;
-    font-size: 2.8vmax;
-    margin: 20px auto;
-    width: 100%;
-    text-align: center;
-  }
-
-  #seksjon2overskrift2 {
+  #bilde1 {
     display: none;
   }
-  .seksjon2bilde {
-    width: 35rem;
-    border-radius: 5px;
-    height: 35rem;
-    margin: auto;
-    order: 1;
+
+  #bilde2, #bilde3, #bilde4 {
+    width: 90%;
+    margin: 0px auto;
+    border-radius: 10px;
   }
-  
+
+  #bilde4 {
+    display: block;
+  }
+
   .seksjon2tekst {
-    order: 3;
-    text-align: center;
-    padding: 0;
+    margin-top: -150px;
+    margin-bottom: 100px;
+    width: 80%;
+    padding: 40px;
   }
 
   .seksjon2tekst p {
-    width: 70%;
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
     font-size: 2vmax;
-}
+  }
+  
+  #seksjon2overskrift2 {
+    font-size: 2.8vmax;
+  }
+
+
+  .seksjon2bilde {
+    height: 300px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 50px;
+    width: 100%;
+    margin: auto;
+  }
+
+ 
 
   .ikon {
     height: 9.5vmin;
@@ -719,6 +781,7 @@ h4 {
    .seksjon3mobil {
     display: block;
     width: 100%;
+    border-radius: 5px;
    }
 
    .seksjon3bilde {
@@ -726,8 +789,9 @@ h4 {
     margin: 30px;
     width: 70%;
     transform: scaleX(1);
-    margin-top: 100px;
+    margin-top: -150px;
     z-index: -1;
+    border-radius: 5px;
   }
 
   .seksjon3mobilTekst {
@@ -736,7 +800,7 @@ h4 {
     text-align: center;
     height: auto;
     padding: 50px;
-    margin: -100px 15px 90px 70px;
+    margin: 100px 15px 90px 70px;
   }
 
   
@@ -765,12 +829,13 @@ h4 {
   }
   
   .seksjon4bilde {
-    width: 35rem;
-    height: 35rem;
+    width: 85%;
+    height: 400px ;
     margin:  auto;
     margin-bottom: -40px;
     margin-top: 20px;
     order: 2; /* funker ikke */
+    border-radius: 5px;
   }
   
   .seksjon4tekst{
