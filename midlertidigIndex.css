@@ -176,6 +176,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 150px;
+  margin-bottom: -300px;
 }
 
 #bilde1 {
@@ -183,6 +184,7 @@
   background-image: url("bilde1.png") ;
   width: 50%;
   background-size: cover;
+  margin-bottom: -500px;
 }
 
 #bilde4 {
@@ -194,7 +196,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 
