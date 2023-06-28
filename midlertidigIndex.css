@@ -233,6 +233,9 @@
   padding-top: 30px;
 }
 
+.seksjon2ikon {
+  display: none;
+}
 
 /* tekst seksjon 3 */
 .seksjon3mobil {
@@ -706,7 +709,12 @@ h4 {
 
    /* seksjon 2 */
 
- 
+ .seksjon2ikon {
+  display: block;
+  height: 60px;
+  width: 60px;
+  margin: 10px auto;
+ }
   .bilde1ogtekst {
     flex-direction: column;
     align-items: center;
@@ -763,8 +771,8 @@ h4 {
  
 
   .ikon {
-    height: 9.5vmin;
-    width: 9.5vmin;
+    height: 10vmin;
+    width: 10vmin;
   }
   
    /* seksjon 3 */
@@ -812,6 +820,8 @@ h4 {
 
   .seksjon3ikon {
     margin-top: 0px;
+    height: 60px;
+    width: 60px;
   }
 
   .seksjon3 button {
