@@ -195,7 +195,6 @@
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
-  margin-top: 200px;
 }
 
 
@@ -211,6 +210,7 @@
   height: 100%;
   width: 50%;
   background-size: cover;
+  margin-top: 200px;
 }
 
 #bilde4 {
@@ -822,6 +822,7 @@ h4 {
     margin-top: 0px;
     height: 60px;
     width: 60px;
+    margin: 10px auto;
   }
 
   .seksjon3 button {
