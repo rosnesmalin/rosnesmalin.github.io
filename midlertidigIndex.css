@@ -729,7 +729,7 @@ h4 {
   }
 
   #bilde2, #bilde3, #bilde4 {
-    width: 100%;
+    width: 93%;
     margin: 0px auto;
     height: 500px;
     margin-top: 300px;
@@ -785,11 +785,12 @@ h4 {
    }
 
    .seksjon3bilde {
-    height: 90vmin;
-    margin: 30px;
-    width: 70%;
+    height: 80vmin;
+    margin: 20px;
+    width: 80%;
     transform: scaleX(1);
     margin-top: -150px;
+    margin-bottom: 100px;
     z-index: -1;
   }
 
@@ -827,12 +828,13 @@ h4 {
     height: auto;
   }
   
+
   .seksjon4bilde {
     width: 85%;
     height: 400px ;
     margin:  auto;
     margin-bottom: -40px;
-    margin-top: 20px;
+    margin-top: 50px;
     order: 2; /* funker ikke */
   }
   
@@ -854,7 +856,7 @@ h4 {
 
   .seksjon4overskrift1 {
     display: block;
-    padding-top: 50px;
+    padding-top: 100px;
     font-size: 2.3vmax;
     text-align: center;
     width: 90%;
