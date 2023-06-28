@@ -784,23 +784,27 @@ h4 {
     width: 100%;
    }
 
-   .seksjon3bilde {
-    height: 80vmin;
-    margin: 20px;
-    width: 80%;
-    transform: scaleX(1);
-    margin-top: -150px;
-    margin-bottom: 100px;
-    z-index: -1;
-  }
-
-  .seksjon3mobilTekst {
+   .seksjon3mobilTekst {
     background-color: #4F8966;
     color: white;
     text-align: center;
     height: auto;
     padding: 50px;
-    margin: 300px 15px 90px 70px;
+    margin: 10px;
+    margin-top: 300px;
+    width: 90%;
+    float: right;
+  }
+
+   .seksjon3bilde {
+    height: 100vmin;
+    margin: 10px;
+    width: 90%;
+    transform: scaleX(1);
+    margin-top: -100px;
+    margin-bottom: 100px;
+    z-index: -1;
+    float: left;
   }
 
   
