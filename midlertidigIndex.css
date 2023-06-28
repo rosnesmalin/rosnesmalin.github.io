@@ -566,7 +566,7 @@ h4 {
 
   .footer{
       flex-direction: column;
-      font-size: 2vmax;
+      font-size: 2.3vmax;
 }
 
 .logoFooter {
@@ -596,15 +596,15 @@ h4 {
 
   h4 {
     margin-top: 30px;
-    font-size: 2vmax;
+    font-size: 2.3vmax;
   }
 
   .footer-midten p {
-    font-size: 1.8vmax;
+    font-size: 2.3vmax;
   }
 
   a {
-  font-size: 2vmax;
+  font-size: 2.3vmax;
   }
 
   #vårreise {
@@ -619,12 +619,10 @@ h4 {
 
 /* tablet */
 @media only screen and (max-width: 800px) {
-  html {
-    font-size: 50%;
-  }
+
 
   button {
-    font-size: 2vmax;
+    font-size: 2.3vmax;
     height: auto;
     width: 8rem;
     padding: 1vmax 2vmax 1vmax 2vmax;
@@ -686,11 +684,11 @@ h4 {
   }
 
   #infoMelding p {
-  font-size: 2vmax;
+  font-size: 2.3vmax;
   }
 
   #infoMelding h3 {
-    font-size: 2.8vmax;
+    font-size: 3.1vmax;
     }
 
   #closeBtn {
@@ -704,12 +702,12 @@ h4 {
   }
 
   .seksjon1 p {
-    font-size: 2vmax;
+    font-size: 2.3vmax;
     width: 90%;
   }
 
   .seksjon1 h1 {
-    font-size: 2.8vmax;
+    font-size: 3vmax;
   }
 
 
@@ -731,9 +729,8 @@ h4 {
   }
 
   #bilde2, #bilde3, #bilde4 {
-    width: 90%;
+    width: 100%;
     margin: 0px auto;
-    border-radius: 10px;
     height: 500px;
     margin-top: 300px;
   }
@@ -753,11 +750,11 @@ h4 {
   .seksjon2tekst p {
     width: 100%;
     text-align: center;
-    font-size: 2vmax;
+    font-size: 2.3vmax;
   }
   
   #seksjon2overskrift2 {
-    font-size: 2.8vmax;
+    font-size: 3vmax;
   }
 
 
@@ -785,7 +782,6 @@ h4 {
    .seksjon3mobil {
     display: block;
     width: 100%;
-    border-radius: 5px;
    }
 
    .seksjon3bilde {
@@ -795,7 +791,6 @@ h4 {
     transform: scaleX(1);
     margin-top: -150px;
     z-index: -1;
-    border-radius: 5px;
   }
 
   .seksjon3mobilTekst {
@@ -809,12 +804,12 @@ h4 {
 
   
   .seksjon3mobilTekst h1 {
-    font-size: 2.8vmax;
+    font-size: 3vmax;
     margin-bottom: 20px;
   }
 
   .seksjon3mobilTekst p {
-    font-size: 2vmax;
+    font-size: 2.3vmax;
   }
 
   .seksjon3ikon {
@@ -839,7 +834,6 @@ h4 {
     margin-bottom: -40px;
     margin-top: 20px;
     order: 2; /* funker ikke */
-    border-radius: 5px;
   }
   
   .seksjon4tekst{
@@ -851,7 +845,7 @@ h4 {
   }
 
   .seksjon4tekst p {
-    font-size: 2vmax;
+    font-size: 2.3vmax;
   }
   
   .seksjon4overskrift2 {
@@ -861,7 +855,7 @@ h4 {
   .seksjon4overskrift1 {
     display: block;
     padding-top: 50px;
-    font-size: 2vmax;
+    font-size: 2.3vmax;
     text-align: center;
     width: 90%;
     margin: auto;
@@ -877,7 +871,7 @@ h4 {
 
   .soMe h2 {
     margin: 0 auto;
-    font-size: 2.8vmax;
+    font-size: 3vmax;
     text-align: center;
     width: 60%;
   }
