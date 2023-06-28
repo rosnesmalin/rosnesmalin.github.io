@@ -234,8 +234,6 @@
 }
 
 
-
-
 /* tekst seksjon 3 */
 .seksjon3mobil {
   display: none;
@@ -498,12 +496,7 @@ h4 {
   transform: translateZ(0);
 }
 
-.bildeKarusell{
-  transition: opacity 0.5s ease;
-}
-.bildeKarusell:hover{
-  opacity: 1;
-}
+
 
 /* pop-up informasjonsmelding */
 
@@ -797,7 +790,7 @@ h4 {
   }
 
    .seksjon3bilde {
-    height: 100vmin;
+    height: 120vmin;
     margin: 10px;
     width: 90%;
     transform: scaleX(1);
