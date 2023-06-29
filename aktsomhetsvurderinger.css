@@ -1,18 +1,12 @@
   
-  .bildeseksjon p {
-    width: 85%;
-    color: #6e6e6e;
-    text-align: right;
-    font-size: 10px;
-    margin-top: -50px;
-  }
 
   .bilde {
-    background-image: url("farmer.jpeg");
+    background-image: url("åpenhetsloven.jpg");
     height: 400px;
     width: 70%;
     margin: 50px auto;
     background-size: cover;
+    background-position: center;
   }
 
   .informasjon {
@@ -22,14 +16,15 @@
 .informasjon, h1 p {
     width: 70%;
     margin: 50px auto;
+    font-size: 1.2vmax;
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 2.3vmax;
     font-weight: bold;
 }
 h2 {
-    font-size: 18px;
+    font-size: 2vmax;
     font-weight: bold;
 }
 
