@@ -104,7 +104,7 @@
 
 .hero {
     background-image: url(herobilde.jpg);
-    background-position: center;
+    background-position: bottom;
     background-size: cover;
     width: 100%;
     padding-top: 60vmin;
