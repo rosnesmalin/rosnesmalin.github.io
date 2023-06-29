@@ -244,24 +244,25 @@
 .seksjon3mobil {
   display: none;
 }
+
 .seksjon3 {
   margin-top: 100px;
+  justify-content: center;
   display: flex;
-  height: 600px;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #528D72;
 }
 
 .seksjon3bilde {
+  display: block;
   background-image:  url(gartneri.jpg);
   background-size: cover;
-  margin: 50px;
-  display: block;
-  height: auto;
-  width: 80%;
-  position: relative;
-  margin-right: 100px;
+  width: 37vmax;
+  height: 37vmax;
+  background-position: center;
 }
-
 
 
 .seksjon3tekst {
@@ -271,7 +272,7 @@
   justify-content: center;
   text-align: center;
   height: auto;
-  margin-left: 50px;
+  width: 50%;
 }
 
 .seksjon3ikon {
@@ -282,7 +283,7 @@
 }
 
 .seksjon3tekst h1{
-font-size: 2.5vmax;
+font-size: 2vmax;
 font-weight: 100;
 color: #ffffff;
 width: 60%;
@@ -313,8 +314,12 @@ width: 60%;
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  height: 700px;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #eeeded;
+  justify-content: center;
+ 
 }
 
 .seksjon4overskrift1 {
@@ -338,9 +343,8 @@ width: 60%;
   align-items: center;
   justify-content: center;
   text-align: center;
-  width: 50%;
-  padding: 20px 70px 20px 100px;
-  margin: 80px;
+  width: 30%;
+  margin-left: 80px;
 }
 
 .seksjon4tekst p {
@@ -351,28 +355,29 @@ width: 60%;
 
 
 .seksjon4bilde {
-  width: 50vmax;
-  height: 35vmax;
   background-size: cover;
   background-image: url("team.jpg");
   background-position: center;
-  margin-left: 200px;
+  width: 37vmax;
+  height: 37vmax;
 }
+
+
 
 /* sosiale medier */
 
 .soMe {
   height: 450px;
   padding-top: 100px;
+  justify-content: center;
+  text-align: center;
 }
 
-.soMe h2 {
-  margin-left: 35%; /* fiks*/
-}
 .soMe-container {
   padding: 30px;
   display: flex;
-  margin-left: 40%; /* fiks*/
+  justify-content: center;
+  align-items: center;
 }
 
 .soMe-container img {
@@ -618,6 +623,7 @@ h4 {
 
  
 }
+
 
 
 
