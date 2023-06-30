@@ -103,11 +103,11 @@
 
 
 .hero {
-    background-image: url(herobilde.jpg);
-    background-position: bottom;
+    background-image: url(agurk2.jpg);
+    background-position: center;
     background-size: cover;
     width: 100%;
-    padding-top: 60vmin;
+    padding-top: 70vmin;
 }
 
 
@@ -261,7 +261,7 @@
   background-size: cover;
   width: 37vmax;
   height: 37vmax;
-  background-position: center;
+  background-position:  center;
 }
 
 
@@ -816,10 +816,11 @@ h4 {
     margin: 10px;
     width: 90%;
     transform: scaleX(1);
-    margin-top: -100px;
+    margin-top: -130px;
     margin-bottom: 100px;
     z-index: -1;
     float: left;
+    background-position: center;
   }
 
   
