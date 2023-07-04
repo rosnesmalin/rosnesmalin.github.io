@@ -129,20 +129,3 @@ window.addEventListener("scroll", reveal2);
 
 
 // cookie policy
-
-// google analytics for grudegartneri.no
-
-/*window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-RD81H49TE2');*/
-
-
-// google analytics for nidwilas.site
-
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'G-PKG6GB9FBK');
