@@ -42,7 +42,7 @@ function scrollFunction() {
     // viser meldingen etter det har gått 1 sek
     setTimeout(showModal,1500);
     // når knappen trykkes på skjules meldingen
-    $("#closeBtn").click(function(){
+    $(".closeBtn").click(function(){
       $("#infoMelding").hide()
       $("#overlay").hide();
     })
@@ -123,8 +123,6 @@ function reveal3() {
 window.addEventListener("scroll", reveal);
 window.addEventListener("scroll", reveal3);
 window.addEventListener("scroll", reveal2);
-
-
 
 
 

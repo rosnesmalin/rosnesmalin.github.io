@@ -8,6 +8,9 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 
 RewriteRule ^(.*)$ $1.html [NC,L]
 
+RewriteEngine On
+RewriteRule ^$ index.html [L]
+
 
 
 

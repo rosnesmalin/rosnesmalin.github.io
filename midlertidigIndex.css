@@ -567,6 +567,40 @@ h4 {
 
 
 /* cookie */
+.cookie{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background: #fff;
+  padding: 10px 50px 10px 50px;
+}
+.cookieInnhold{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cookieInnhold p{
+  color: #858585;
+}
+
+.ok {
+  margin: 0px;
+  margin-left: 20px;
+  left: 0;
+  margin-top: -20px;
+  right: 0;
+}
+
+.lesMer {
+  color: #828181;
+}
+
+.cookie.hide{
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
 
 
 
@@ -701,7 +735,7 @@ h4 {
     font-size: 3.1vmax;
     }
 
-  #closeBtn {
+  .closeBtn {
     color: #000000;
   }
 
@@ -929,5 +963,4 @@ h4 {
   }
 
 }
-
 
