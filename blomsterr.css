@@ -11,7 +11,7 @@
     align-items: center;
     height: 400px;
     margin: 50px auto;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("bilder/bilde2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("bilder/sommerblomster.jpeg");
     background-size: cover;
     background-position: center;
     width: 80%;
@@ -150,7 +150,7 @@ p {
     min-height: 35vmax;
     margin: 0px 50px 0 50px;
     width: 50%;
-    background-image: url("bilder/georgin2.jpeg");
+    background-image: url("bilder/bilde2.jpg");
     background-size: cover;
     background-position: center;
 }
