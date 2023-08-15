@@ -1,113 +1,155 @@
 * {
-    margin: 0;
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
-    line-height: 1.5;
-    font-weight: 10;
-    letter-spacing: 0.8px;
-    
-  }
-
-  button {
-    background-color: #4F8966;
-    color: #f2f2f2;
-    border-radius: 80px;
-    border: 1px;
-    height: auto;
-    width: 6rem;
-    padding: 0.5vmax;
-    margin: auto;
-    margin-top: 30px;
-    font-size: 1vmax;
-  }
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  line-height: 1.6;
+  font-weight: 10;
+  letter-spacing: 0.8px;
   
-  button:hover {
-    transform: scale(1.05);
-  }
- 
+}
+
+html { 
+  scroll-behavior: smooth;
+  font-size: 19px; 
+
+}
+
+
+button {
+  background-color: #4F8966;
+  color: #f2f2f2;
+  border-radius: 80px;
+  border: 1px;
+  height: auto;
+  width: auto;
+  padding: 0.6vmax;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 1.5vmax;
+  text-decoration: none;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1rem;
+  /* forhindrer at tall tolkes som f.eks mobilnumre på mobilskjerm*/
+    -webkit-touch-callout: none; /* iOS */
+    -moz-touch-callout: none; /* Firefox */
+    -ms-touch-callout: none; /* IE/Edge */
+}
+
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+/* navbar start */
+
+.home-page #navbar {
+  width: 100%;
+  z-index: 999;
+  background-color: #f1f1f1;
+  top: -00px;
   
-  /* navbar start */
+}
 
-  .home-page #navbar {
-    width: 100%;
-    z-index: 200;
-    background-color: #f8f8f8;
-  }
-  
-  #navlinks {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    padding-top: 80px;
-    padding-bottom: 10px; /* endre til 30 når linkene kommer på plass */
-    margin-left: -100px;
-  }
+#navlinks {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 10px; /* endre til 30 når linkene kommer på plass */
+  margin-left: -100px;
+}
 
 
-  #navlinks ul {
-    list-style: none;
-    display: flex;
-    gap: 5vmax;
-    font-size: 1.8vmin;
-  }
+#navlinks ul {
+  list-style: none;
+  display: flex;
+  gap: 5vmax;
+  font-size: 1.8vmin;
+}
 
 
-  #navlinks ul li:hover {
-    transform: scale(1.05);
-  }
+#navlinks ul li:hover {
+  transform: scale(1.05);
+}
 
- 
-  #logoDesktop {
-    height: 15vmin;
-    display: block;
-    margin: 0px auto;
-    margin-top: -60px;
-  }
 
-  .logoMobil { 
-    display: none;
-  }
+#logoDesktop {
+  height: 15vmin;
+  display: block;
+  margin: 0px auto;
+  margin-top: -60px;
+}
 
-  .logoDesktop:hover { 
-    transform: scale(1.05);
-  }
+.logoMobil { 
+  display: none;
+}
 
-  .logoMobil:hover { 
-    transform: scale(1.05);
-  }
 
-  nav ul a {
-    color: #3d3d3d;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
-  
-  nav ul a:hover { 
-    transform: scale(1.05);
-  }
-  
-  #ham-menu {
-    display: none;
-    position: absolute;
-    top: 3rem;
-    right: 3rem;
-  }
-  
-  nav ul.active {
-    left: 0;
-  }
-  
-  
+
+.logoDesktop:hover { 
+  transform: scale(1.05);
+}
+
+.logoMobil:hover { 
+  transform: scale(1.05);
+}
+
+nav ul a {
+  color: #3d3d3d;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul a:hover { 
+  transform: scale(1.05);
+}
+
+#ham-menu {
+  display: none;
+  position: absolute;
+  top: 1.4rem;
+  right: 1.4rem;
+}
+
+nav ul.active {
+  left: 0;
+}
+
+
 /* navbar slutt */
 /* hero start */
 
 
 .hero {
-    background-image: url(agurk.jpg);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    padding-top: 60vmin;
+  background-image: url(bilder/agurk.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 60vmin;
 }
 
 
@@ -117,192 +159,209 @@
 /* tekst seksjon 1 */
 
 .seksjon1 {
-  background-color: #f0efef;
-  height: auto;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  padding: 70px;
+background-color: #f0efef;
+height: auto;
+justify-content: center;
+text-align: center;
+align-items: center;
+padding: 70px;
 }
 
 .seksjon1 h1 {
-  font-size: 2vmax;
-  font-weight: 100;
-  color: #000000;
-  width: 70%;
-  margin: 0 auto;
+font-weight: 100;
+color: #000000;
+width: 70%;
+margin: 0 auto;
+}
+
+.seksjon1 a {
+color: #060606;
+text-decoration: none;
+font-weight: 1000;
 }
 
 .seksjon1 p{
-  font-size: 1.2vmax;
-  padding-top: 20px;
-  color: #000000;
-  width: 40%;
-  margin: 0 auto;
+padding-top: 20px;
+color: #000000;
+width: 40%;
+margin: 0 auto;
 }
 
 .ikon-container {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 .ikon {
-  width: 7.5vmin;
-  height: 7.5vmin;
-  margin: 5px;
-  margin-top: 40px;
+width: 7.5vmin;
+height: 7.5vmin;
+margin: 5px;
+margin-top: 40px;
 }
 
 
 /* seksjon 2 "71 mål med grønn glede" boks*/
 
 .seksjon2 {
-  height: auto;
+height: auto;
 }
 
 .bilde1ogtekst {
-  display: flex;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 100px;
-  margin-top: 150px;
+display: flex;
+position: -webkit-sticky;
+position: sticky;
+top: 100px;
+margin-top: 100px;
 }
 
 .seksjon2tekst {
-  height: auto;
-  font-size: 20px;
-  width: 50%;
-  padding: 0px 20px 20px 80px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 150px;
-  margin-bottom: -300px;
+height: auto;
+width: 50%;
+padding: 0px 20px 20px 80px;
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+margin-bottom: -300px;
 }
 
 #bilde1 {
-  height: 500px;
-  background-image: url("bilde1.jpg") ;
-  width: 50%;
-  background-size: cover;
+height: 500px;
+
+background-image: url("bilder/bilde1.jpg") ;
+width: 50%;
+background-size: cover;
 }
 
 #bilde4 {
-  display: none;
+display: none;
 }
 
 .seksjon2bilde {
-  height: 500px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 100px;
+height: 500px;
+position: -webkit-sticky;
+position: sticky;
+top: 100px;
 }
 
-
 #bilde2 {
-  background-image: url("bilde2.jpg") ;
-  background-position: right;
-  height: 100%;
-  width: 50%;
-  background-size: cover;
+
+background-image: url("bilder/bilde2.jpg") ;
+background-position: right;
+height: 100%;
+width: 50%;
+background-size: cover;
 }
 
 #bilde3 {
-  background-image: url("bilde3.jpg") ;
-  background-position: center;
-  height: 100%;
-  width: 50%;
-  background-size: cover;
-  margin-top: 200px;
+background-image: url("bilder/bilde3.jpg") ;
+background-position: center;
+height: 100%;
+width: 50%;
+background-size: cover;
+margin-top: 200px;
 }
 
 #bilde4 {
-  background-image: url("bilde1.jpg") ;
-  background-position: center;
-  height: 100%;
-  width: 50%;
-  background-size: cover;
+background-image: url("bilder/bilde1.jpg") ;
+background-position: center;
+height: 100%;
+width: 50%;
+background-size: cover;
+}
+
+.seksjon2Knapp {
+z-index: 9999;
+top: 485px;
+position: sticky;
+margin-top: -120px;
+margin-left: 50%;
+padding-left: 80px;
+}
+
+
+#knapp2 {
+  display: none;
 }
 
 
 .seksjon2overskrift2 {
-  width: 100%;
-  font-size: 2vmax;
-  font-weight: 100;
+width: 100%;
+font-weight: 100;
 }
 
 .seksjon2tekst p {
-  font-size: 1.2vmax;
-  width: 80%;
-  padding-top: 30px;
+width: 80%;
+padding-top: 30px;
 }
 
 .seksjon2ikon {
-  display: none;
+display: none;
 }
 
 /* tekst seksjon 3 */
 .seksjon3mobil {
-  display: none;
+display: none;
 }
 
 .seksjon3 {
-  margin-top: 100px;
-  justify-content: center;
-  display: flex;
-  height: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-color: #528D72;
+margin-top: 100px;
+justify-content: center;
+align-items: center;
+display: flex;
+height: auto;
+padding-top: 60px;
+padding-bottom: 60px;
+background-color: #528D72;
+margin: 100px 80px 50px 80px;
+border-radius: 20px;
 }
 
 .seksjon3bilde {
-  display: block;
-  background-image:  url(gartneri.jpg);
-  background-size: cover;
-  width: 37vmax;
-  height: 37vmax;
-  background-position:  center;
+display: block;
+background-image:  url(bilder/olaug.jpg);
+background-size: cover;
+width: 45%;
+margin-right: 50px;
+height: 37vmax;
+background-position:  center;
 }
 
 
 .seksjon3tekst {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  height: auto;
-  width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: auto;
+width: 50%;
 }
 
 .seksjon3ikon {
-  height: 6rem;
-  width: 6rem;
-  margin-bottom: 20px;
-  margin-top: -60px;
+height: 6rem;
+width: 6rem;
+margin-bottom: 20px;
 }
 
 .seksjon3tekst h2{
-font-size: 2vmax;
 font-weight: 100;
 color: #ffffff;
-width: 60%;
+width: 70%;
 }
 
 .seksjon3tekst p{
-font-size: 1.2vmax;
 padding-top: 20px;
 color: #ffffff;
-width: 60%;
+width: 70%;
 }
 
 
-.seksjon3tekst button {
-  background-color: #f2f2f2;
-  color: #000000;
-  width: auto;
-  padding: 5px 20px 5px 20px;
- }
+.hvitKnapp {
+background-color: #f2f2f2;
+color: #000000;
+width: auto;
+padding: 5px 20px 5px 20px;
+}
 
 
 
@@ -310,56 +369,53 @@ width: 60%;
 /* seksjon 2 "71 mål med grønn glede" boks*/
 
 .seksjon4 {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto;
-  height: auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #eeeded;
-  justify-content: center;
- 
+display: flex;
+align-items: center;
+width: 100%;
+padding-top: 60px;
+margin: 0 auto;
+height: auto;
+padding-bottom: 60px;
+background-color: #eeeded;
+justify-content: center;
+
 }
 
 .seksjon4overskrift1 {
-  display: none;
+display: none;
 }
 
 .seksjon4ikon {
-  height: 13vmin;
-  width: 13vmin;
+height: 13vmin;
+width: 13vmin;
 }
 
-.seksjon4overskrift {
-  width: 100%;
-  padding-top: 20px;
-  font-size: 1.5vmax;
-  font-weight: 100;
+.seksjon4overskrift2 {
+width: 100%;
+padding-top: 20px;
+font-weight: 100;
 }
 
 .seksjon4tekst{
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  width: 30%;
-  margin-left: 80px;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+text-align: center;
+width: 30%;
+margin-left: 80px;
 }
 
 .seksjon4tekst p {
-  font-size: 1.2vmax;
-  padding-top: 30px;
-  padding-bottom: 30px;
+padding-top: 30px;
 }
 
 
 .seksjon4bilde {
-  background-size: cover;
-  background-image: url("team.jpg");
-  background-position: center;
-  width: 37vmax;
-  height: 37vmax;
+background-size: cover;
+background-image: url("bilder/team.jpg");
+background-position: center;
+width: 37vmax;
+height: 37vmax;
 }
 
 
@@ -367,82 +423,80 @@ width: 60%;
 /* sosiale medier */
 
 .soMe {
-  height: 450px;
-  padding-top: 100px;
-  justify-content: center;
-  text-align: center;
+height: 450px;
+padding-top: 100px;
+justify-content: center;
+text-align: center;
 }
 
 .soMe-container {
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .soMe-container img {
-  height: 8vmax;
-  padding: 10px;
+height: 8vmax;
+padding: 10px;
 }
 
 .soMe-container img:hover {
-  transform: scale(1.05);
+transform: scale(1.05);
+}
+
+.forstørr:hover {
+transform: scale(1.2);
 }
 
 
 
 /*footer tablet/laptop*/
 .footer {
-  width: 100%;
-  background:#f2f2f2;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font: bold 14px sans-serif;
+width: 100%;
+background:#f2f2f2;
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
 }
 
 
 /* Footer venstre-del */
 .footer-venstre{
-  padding-left: 140px;
-  margin-top: -100px;
+padding-left: 140px;
+margin-top: -100px;
 }
 
 
 .footer p{
-  color: black;
-  font-size: 12px;
-  font-weight: 200;
-  line-height: 2;
+color: black;
+font-size: 1.1vmax;
+font-weight: 200;
+line-height: 2;
 }
 
 .logoFooter {
-  height: 13vmin;
+height: 13vmin;
 }
 
 .logoFooter:hover {
-  transform: scale(1.02);
+transform: scale(1.02);
 }
 
 /* footer - midten */
 
 .åpningstider {
-  margin-bottom: 20px;
-}
-
-h4 {
-  color: var(--farge13); 
-  font-size: 14px;
-  font-weight: 1000;
+margin-bottom: 20px;
 }
 
 .footer-midten {
-  margin: auto;
+margin: auto;
 }
 
 .footer-midten a{
-  color: black;
+color: black;
 }
 
 
@@ -450,531 +504,560 @@ h4 {
 /* Footer høyre */
 
 .footer-høyre{
-    width: 20%;
-    padding-top: 30px;
+  width: 20%;
 }
 
 .footer-høyre p{
-    color: var(--farge4);
-    font-weight: 100;
+  font-weight: 100;
 }
 
 
-.footer-høyre p a{
-    color: var(--farge13); 
-    text-decoration: none;
-    font-weight: 1000;
+.footer-høyre p { 
+  text-decoration: none;
+  font-weight: 1000;
+  font-size: 1.1vmax;
 }
 
 .footer-links a{
-  line-height: 2;
-  text-decoration: none;
-  color: black;
-  font-weight: 500;
-  text-decoration: underline;
-  display: block;
+line-height: 2;
+text-decoration: none;
+color: black;
+font-weight: 500;
+text-decoration: underline;
+display: block;
+font-size: 1.1vmax;
 }
 
 .footer-links a:hover {
-  transform: scale(1.02);
+transform: scale(1.02);
 }
 
-#åpenhetslovenLink {
-  margin-bottom: 100px;
-}
 
 
 /* animajsoner */
 .animasjonOpp{
-  position: relative;
-  transform: translateY(150px);
-  transition: 0.9s all ease;
+position: relative;
+transform: translateY(150px);
+transition: 0.7s all ease;
 }
 .animasjonOpp.active{
-  transform: translateY(0);
+transform: translateY(0);
 }
 
 .animasjonFraHøyre{
-  position: relative;
-  transform: translateX(250px);
-  transition: 1.5s all ease;
+position: relative;
+transform: translateX(250px);
+transition: 1s all ease;
 }
 .animasjonFraHøyre.active{
-  transform: translateX(0);
+transform: translateX(0);
 }
 
 .animasjonFraVenstre{
-  position: relative;
-  transform: translate(-250px);
-  transition: 1.5s all ease;
+position: relative;
+transform: translate(-250px);
+transition: 1s all ease;
 }
 .animasjonFraVenstre.active{
-  transform: translateZ(0);
+transform: translateZ(0);
 }
 
-
-
-/* pop-up informasjonsmelding */
-
-#overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(2px); 
-  z-index: 998; 
-  display: none;
-}
-
-#infoMelding {
-  position: fixed;
-  border: 0.5px solid rgb(255, 255, 255);
-  border-radius: 20px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
-  display: none;
-}
-
-
-.infoMelding-innhold {
-  background-color: #528D72;
-  color: white;
-  border-radius: 20px;
-  padding: 50px;
-  z-index: 10000;
-}
-
-#infoMelding p {
-  padding-top: 20px;
-}
-
-#infoMelding h3 {
-  font-weight: bold;
-}
-
-.infoMelding-top button {
-  float: right;
-  margin: -10px;
-  background-color: #e8e8e8;
-  height: 40px;
-  width: 40px;
-  color: #000000;
-  margin-top: -20px;
-}
 
 
 /* cookie */
 .cookie{
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  background: #e7e7e7;
-  padding: 10px 50px 10px 50px;
-  border-radius: 20px;
-  z-index: 10000000;
+position: fixed;
+bottom: 0px;
+width: 100%;
+background: #e7e7e7;
+padding: 10px 50px 10px 50px;
+border-radius: 20px;
+z-index: 99999;
 }
 
 .cookieInnhold{
-  display: flex;
-  justify-content: space-between;
+display: flex;
+justify-content: space-between;
+color: #2f2f2f;
 }
 
-.cookieInnhold p{
-  color: #858585;
-}
+
+
 
 .ok {
-  margin: 0px;
-  margin-left: 20px;
-  left: 0;
-  margin-top: -20px;
-  right: 0;
+margin: 0px;
+margin-left: 20px;
+left: 0;
+margin-top: -20px;
+right: 0;
 }
 
 .lesMer {
-  color: #828181;
+color: #828181;
 }
 
 .cookie.hide{
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(1.1);
-  transition: all 0.3s ease;
+opacity: 0;
+pointer-events: none;
+transform: scale(1.1);
+transition: all 0.3s ease;
 }
 
+@media only screen and (max-width:1300px){
+a {
+  font-size: 0.85rem;
+}
 
+.seksjon3bilde {
+  height: 50vmax;
+}
+
+}
+
+@media only screen and (max-width:1070px){
+.seksjon2Knapp {
+top: 550px;
+margin-top: 50px;
+text-decoration: none;
+}
+}
+
+@media only screen and (max-width:960px){
+.seksjon2Knapp {
+  top: 585px;
+}
+
+/* navbar */
+#navbar {
+z-index: 200000;
+}
+#ham-menu {
+display: block;
+color: #3b7741;
+z-index: 99999999990;
+}
+
+nav a#logoDesktop, #ham-menu {
+font-size: 2rem;
+}
+nav ul {
+background-color:#EBECEB;
+gap: 0;
+position: fixed;
+left: -100vw;
+top: 0px; 
+width: 100vw;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content:center;
+transition: 0.7s;
+z-index: 9999999999;
+}
+
+#navlinks {
+padding-top: 120px;
+}
+
+#navlinks a {
+font-size: 1rem;
+}
+
+#logoDesktop {
+display: none;
+}
+
+.logoMobil { 
+height: 30vmin;
+display: block;
+margin: auto;
+padding-top: 25px;
+margin-bottom: -120px;
+}
+
+}
 
 /*mobile device*/
 @media only screen and (max-width:1000px){
 
-  .footer{
-      flex-direction: column;
-      font-size: 2.3vmax;
+
+label{
+font-size: 1.2rem;
 }
+
+.footer{
+    flex-direction: column;
+}
+
 
 .cookie {
-  padding: 30px;
+padding: 30px;
 }
+
+
 
 .logoFooter {
-  height: 23vmin;
+height: 23vmin;
 }
-  
-  .footer-venstre, .footer-midten, .footer-høyre{
-    width: 100%;
-    margin-bottom: 40px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-  }
 
-  .footer-venstre {
-    order: 1;
-  }
 
-  .footer-midten  {
-    margin-bottom: 50px;
-    order: 2;
-  }
+.footer-venstre, .footer-midten, .footer-høyre{
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
 
-  .footer-høyre {
-    order: 3;
-  }
+.footer-venstre {
+  order: 1;
+}
 
-  h4 {
-    margin-top: 30px;
-    font-size: 2.3vmax;
-  }
+.footer-midten  {
+  margin-bottom: 50px;
+  order: 2;
+}
 
-  .footer-midten p {
-    font-size: 2.3vmax;
-  }
+.footer-høyre {
+  order: 3;
+}
 
-  a {
+h4 {
+  margin-top: 30px;
   font-size: 2.3vmax;
-  }
-
-  #vårreise {
-    margin-top: -27px;
-  }
-
-
- 
 }
 
 
+.footer-midten p {
+  font-size: 2.3vmax;
+}
+
+.footer-høyre a {
+font-size: 2vmax;
+}
+
+#vårreise {
+  margin-top: -27px;
+}
+
+
+}
 
 
 /* tablet */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
 
-  .cookieInnhold p{
-    color: #858585;
-    font-size: 2.3vmax;
-  }
-  
-  button {
-    font-size: 2.3vmax;
-    height: auto;
-    width: 8rem;
-    padding: 1vmax 2vmax 1vmax 2vmax;
-    width: auto;
-  }
+h2 {
+  font-size: 1.4rem;
+}
 
- /* navbar */
-  #navbar {
-    z-index: 200;
-  }
-  #ham-menu {
-    display: block;
-    color: #3b7741;
-  }
-  
-  nav a#logoDesktop, #ham-menu {
-    font-size: 4.8rem;
-    
-  }
-  nav ul {
-    background-color:#EBECEB;
-    gap: 0;
-    position: fixed;
-    left: -100vw;
-    top: 0px; 
-    width: 100vw;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    transition: 0.7s;
-  }
+p {
+  font-size: 0.85rem;
+}
 
-  #navlinks {
-    padding-top: 120px;
-  }
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
 
-  #logoDesktop {
-    display: none;
-  }
-  
-  .logoMobil { 
-    height: 30vmin;
-    display: block;
-    margin: auto;
-    padding-top: 25px;
-    margin-bottom: -120px;
-  }
+h3 {
+  font-size: 1.2rem;
+}
 
-   /* hero */
-  .hero {
-    height: 550px;
-  }
+a {
+  font-size: 0.85rem;
+}
 
-   /* infomelding popup */
-  #infoMelding {
-    width: 80%;
-  }
-
-  #infoMelding p {
-  font-size: 2.3vmax;
-  }
-
-  #infoMelding h3 {
-    font-size: 3.1vmax;
-    }
-
-  .closeBtn {
-    color: #000000;
-  }
-
-   /* seksjon 1 */
-  .seksjon1 {
-    height: auto;
-    padding: 50px;
-  }
-
-  .seksjon1 p {
-    font-size: 2.3vmax;
-    width: 90%;
-  }
-
-  .seksjon1 h1 {
-    font-size: 3vmax;
-  }
-
-
-   /* seksjon 2 */
-
- .seksjon2ikon {
-  display: block;
-  height: 60px;
-  width: 60px;
-  margin: 10px auto;
- }
-  .bilde1ogtekst {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0px;
-    height: auto;
-    width: 100%;
-    position: relative;
-  }
-  
-  #bilde1 {
-    display: none;
-  }
-
-  #bilde2, #bilde3, #bilde4 {
-    width: 93%;
-    margin: 0px auto;
-    height: 500px;
-    margin-top: 300px;
-  }
-
-  #bilde4 {
-    display: block;
-    margin-top: 0px;
-  }
-
-
-
-  .seksjon2tekst {
-    margin-top: -150px;
-    margin-bottom: 100px;
-    width: 80%;
-    padding: 40px;
-  }
-
-  .seksjon2tekst p {
-    width: 100%;
-    text-align: center;
-    font-size: 2.3vmax;
-  }
-  
-  #seksjon2overskrift2 {
-    font-size: 3vmax;
-  }
-
-
-  .seksjon2bilde {
-    height: 300px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 50px;
-    width: 100%;
-    margin: auto;
-  }
-
- 
-
-  .ikon {
-    height: 10vmin;
-    width: 10vmin;
-  }
-
-  .seksjon5 {
-    height: 300px;
-  }
-  
-   /* seksjon 3 */
-   .seksjon3 {
-    display: none;
-   }
-
-   .seksjon3mobil {
-    display: block;
-    display: flex;
-    width: 100%;
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    background-color: #4F8966;
-   }
-
-   .seksjon3mobilTekst {
-
-    color: white;
-    text-align: center;
-    height: auto;
-    padding: 50px;
-    
-  }
-
-   .seksjon3bilde {
-    margin: auto;
-    height: 60vmin;
-    width: 100%;
- 
-    margin-top: -20px;
-    background-position: center;
-  }
-
-  
-  .seksjon3mobilTekst h2 {
-    font-size: 3vmax;
-    margin-bottom: 20px;
-  }
-
-  .seksjon3mobilTekst p {
-    font-size: 2.3vmax;
-  }
-
-  .seksjon3ikon {
-    margin-top: 0px;
-    height: 60px;
-    width: 60px;
-    margin: 10px auto;
-  }
-
-  .seksjon3 button {
-    margin-bottom: 30px;
-  }
- /* seksjon 4 */
-  .seksjon4 {
-    flex-direction: column;
-    margin: auto;
-    height: auto;
-  }
-  
-  .seksjon4bilde {
-    width: 85%;
-    height: 400px ;
-    background-position: center;
-    margin:  auto;
-    margin-bottom: -40px;
-    margin-top: 50px;
-    order: 2; /* funker ikke */
-  }
-  
-  .seksjon4tekst{
-    text-align: center;
-    width: 90%;
-    padding: 50px;
-    margin: auto;
-    order: 3;
-  }
-
-  .seksjon4tekst p {
-    font-size: 2.3vmax;
-  }
-  
-  .seksjon4overskrift2 {
-    display: none;
-  }
-
-  .seksjon4overskrift1 {
-    display: block;
-    padding-top: 100px;
-    font-size: 2.3vmax;
-    text-align: center;
-    width: 90%;
-    margin: auto;
-    order: 1;
-  }
-
- 
-   /* sosiale medier */
-  .soMe {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .soMe h2 {
-    margin: 0 auto;
-    font-size: 3vmax;
-    text-align: center;
-    width: 60%;
-  }
-  .soMe-container {
-    margin: 0 auto;
-  }
-
-  .soMe img {
-    height: 100px;
-  }
-
-  /* animasjoner */
-  .animasjonFraHøyre{
-    position: relative;
-  transform: translateY(150px);
-    transition: 0.9s all ease;
-  }
-  .animasjonFraHøyre.active{
-    transform: translateY(0);
-  }
-  
-  .animasjonFraVenstre{
-    position: relative;
-    transform: translateY(150px);
-    transition: 0.9s all ease;
-  }
-  .animasjonFraVenstre.active{
-    transform: translateY(0);
-  }
+button {
+  font-size: 0.8rem;
+  height: auto;
+  width: 8rem;
+  padding: 1vmax 2vmax 1vmax 2vmax;
+  width: auto;
 
 }
 
+.seksjon3mobilTekst p {
+  width: 80%;
+  margin: 0px auto;
+}
+
+
+.seksjon4 p {
+  width: 80%;
+  margin: 0px auto;
+}
+
+
+
+
+
+ /* hero */
+.hero {
+  height: 550px;
+}
+
+.closeBtn {
+  color: #000000;
+}
+
+ /* seksjon 1 */
+.seksjon1 {
+  height: auto;
+  padding: 81px;
+
+}
+
+
+
+.seksjon1 p {
+  width: 100%;
+  margin: auto;
+  padding: 0px;
+}
+
+
+
+
+ /* seksjon 2 */
+
+.seksjon2ikon {
+display: block;
+height: 60px;
+width: 60px;
+margin: 10px auto;
+}
+.bilde1ogtekst {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+#knapp2 {
+  display: block;
+  margin: 0px auto;
+  margin-top: 30px;
+
+}
+
+.seksjon2Knapp {
+  display: none;
+}
+
+#bilde1 {
+  display: none;
+}
+
+#bilde2, #bilde3, #bilde4 {
+  width: 93%;
+  margin: 0px auto;
+  height: 500px;
+  margin-top: 300px;
+}
+
+#bilde4 {
+  display: block;
+  margin-top: 0px;
+}
+
+
+.seksjon2tekst {
+  margin-top: -150px;
+  margin-bottom: 100px;
+  width: 90%;
+  padding: 40px;
+}
+
+.seksjon2tekst p {
+  width: 100%;
+  text-align: center;
+}
+
+
+.seksjon2bilde {
+  height: 300px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+.ikon {
+  height: 10vmin;
+  width: 10vmin;
+}
+
+.seksjon5 {
+  height: 300px;
+}
+
+ /* seksjon 3 */
+ .seksjon3 {
+  display: none;
+ }
+
+ .seksjon3mobil {
+  display: block;
+  display: flex;
+  width: 93%;
+  border-radius: 20px;
+  margin: 0px auto;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #4F8966;
+  margin-bottom: 50px;
+ }
+
+ .seksjon3mobilTekst {
+
+  color: white;
+  text-align: center;
+  height: auto;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  
+}
+
+
+ .seksjon3bilde {
+  margin: 0 auto;
+  height: 65vmin;
+  width: 100%;
+  margin-top: -20px;
+  background-position: center;
+  border-radius: 0 0 20px 20px;
+ 
+}
+
+
+.seksjon3mobilTekst h2 {
+  width: 80%;
+  margin: auto;
+}
+
+
+.seksjon3ikon {
+  margin-top: 0px;
+  height: 60px;
+  width: 60px;
+  margin: 10px auto;
+}
+
+.seksjon3 button {
+  margin-bottom: 30px;
+}
+/* seksjon 4 */
+.seksjon4 {
+  flex-direction: column;
+  margin: auto;
+  height: auto;
+}
+
+.seksjon4bilde {
+  width: 85%;
+  height: 400px ;
+  background-position: center;
+  margin:  auto;
+  margin-bottom: -40px;
+  margin-top: 50px;
+  order: 2; /* funker ikke */
+}
+
+.seksjon4tekst{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  order: 3;
+}
+
+
+.seksjon4overskrift2 {
+  display: none;
+}
+
+.seksjon4overskrift1 {
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  order: 1;
+}
+
+
+ /* sosiale medier */
+
+.soMe {
+  display: flex;
+  flex-direction: column;
+}
+
+.soMe h2 {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+.soMe-container {
+  margin: 0 auto;
+}
+
+.soMe img {
+  height: 100px;
+}
+
+/* animasjoner */
+.animasjonFraHøyre{
+  position: relative;
+transform: translateY(150px);
+  transition: 0.9s all ease;
+}
+.animasjonFraHøyre.active{
+  transform: translateY(0);
+}
+
+.animasjonFraVenstre{
+  position: relative;
+  transform: translateY(150px);
+  transition: 0.9s all ease;
+}
+.animasjonFraVenstre.active{
+  transform: translateY(0);
+}
+
+}
+
+
+
+@media only screen and (max-width: 450px) {
+.seksjon1 h1 {
+  width: 90%;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer a {
+  font-size: 1rem;
+}
+
+h4 {
+  margin-top: 30px;
+  font-size: 1rem;
+}
+
+label{
+  font-size: 0.7rem;
+}
+
+}

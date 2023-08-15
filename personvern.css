@@ -10,32 +10,30 @@
 }
 
 .informasjon p {
-   width: 60%;
+   width: 80%;
    margin-bottom: 50px;
 }
 
 
 .informasjon h1 {
-    font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
-    width: 60%;
+    width: 80%;
 }
 
 .informasjon h2 {
-    font-size: 25px;
     font-weight: bold;
-    width: 60%;
+    width: 80%;
 }
 
 .informasjon h3 {
-    font-size: 18px;
     font-weight: bold;
-    width: 60%;
+    width: 80%;
 }
 
 .informasjon a {
-    width: 60%;
+    width: 80%;
+    margin: auto;
 }
 
 
@@ -47,22 +45,14 @@
 }  
 
 .informasjon h1 {
-    font-size: 3.5vmax;
     margin-top: 90px;
   }
 
   .informasjon h2 {
-    font-size: 3vmax;
     margin-top: 30px;
   }
 
-  .informasjon h3 {
-    font-size: 2.3vmax;
-  }
-
-  .informasjon p, a{
-    font-size: 2vmax;
-  }
+ 
 
   .informasjon p {
     margin-top: 20px;

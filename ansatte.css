@@ -1,0 +1,179 @@
+  
+.bildeseksjon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.4)), url("bilder/bilde1.JPG");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+  }
+  
+  .bildeseksjon h1 {
+    color: white;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.28rem;
+
+  }
+  .s1 {
+    display: flex;
+    height: auto;
+    padding:10px;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.bilde {
+    height: 60vmin;
+    width: 50%;
+    object-fit: cover;
+    z-index: 88;
+    border-radius: 5px;
+}
+
+.tekst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:rgb(115, 160, 128);
+    color: rgb(255, 255, 255);
+    padding: 70px;
+    height: 60vmin;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.tekst p {
+  margin-bottom: 15px;
+}
+
+.tekst2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(234, 233, 233);
+    padding: 70px;
+    height: 60vmin;
+    width: 50%;
+    border-radius: 5px;
+}
+  
+  @media only screen and (max-width:1000px){
+  
+    
+.bildeseksjon {
+  height: 600px;
+  margin: 20px auto;
+  width: 95%;
+  align-items: center;
+}
+
+.bildeseksjon h1 {
+  color: white;
+  position: absolute;
+}
+
+
+    h2 {
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+      
+    }
+ 
+    p, a{
+      font-weight: 100;
+    }
+
+   
+    .s1 {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 0px;
+        width: 70%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .bilde {
+        height: 40vmax;
+        width: 85%;
+        z-index: 88;
+        margin: auto;
+        margin-top: 80px;
+    }
+    
+    .tekst {
+        height: auto;
+        padding-left: 0px;
+        padding: 50px;
+        padding-top: 110px;
+        margin-left: 0px;
+        width: 100%;
+        z-index: 1;
+        margin: 0 auto;
+        margin-top: -80px;
+    }
+
+    .tekst2 {
+        height: auto;
+        padding-left: 0px;
+        padding: 50px;
+        padding-top: 110px;
+        margin-left: 0px;
+        width: 100%;
+        z-index: 1;
+        margin: auto;
+        margin-top: -80px;
+        order: 3;
+    }
+   }
+  
+
+   @media only screen and (max-width:450px){
+  
+   
+    
+        h2 {
+          margin-bottom: 10px;
+          word-wrap: break-word;
+          font-size: 1.2rem;
+        }
+     
+        p, a{
+          font-weight: 100;
+        }
+    
+       
+        .s1 {
+            width: 80%;
+        }
+        
+        .bilde {
+            height: 70vmin;
+            width: 85%;
+        }
+        
+        .tekst {
+            padding: 25px;
+            padding-top: 90px;
+            margin-top: -80px;
+        }
+    
+        .tekst2 {
+            padding: 25px;
+            padding-top: 90px;
+            margin-top: -80px;
+        }
+       }
+      

@@ -1,0 +1,230 @@
+  
+
+.bildeseksjon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.4)), url("bilder/agurk2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+}
+
+.bildeseksjon h1 {
+    color: white;
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+}
+
+
+.produksjonsområder {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.generellInfo {
+    display: flex;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: -50px;
+    justify-content: center;
+}
+
+.bolk {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    align-items: center;
+    padding: 30px;
+}
+
+.bolk p {
+    text-align: center;
+}
+
+
+.bolk img {
+height: 5rem;
+width: 5rem;
+margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.containerLenker {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px;
+}
+
+.kategori {
+    width: 100%;
+    height: 28vmax;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+ 
+}
+
+
+.produksjonsområder h3 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#tilBlomster {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("bilder/bilde2.jpg");
+    
+}
+
+#tilGrønnsaker {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("bilder/grønnsaker.jpg");
+}
+
+#tilEgg {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("bilder/egg.jpg");
+
+}
+
+.kategori:hover h3 {
+    display: none; /* Skjul <h3> når det er svevet over */
+  }
+
+#tilBlomster:hover {
+    transform: scale(1.03);
+    background-image: linear-gradient(#ffffff23, #ffffff1d), url("bilder/bilde2.jpg");
+}
+#tilGrønnsaker:hover {
+    transform: scale(1.03);
+    background-image: linear-gradient(#ffffff23, #ffffff1d), url("bilder/grønnsaker.jpg");
+}
+#tilEgg:hover {
+    transform: scale(1.03);
+    background-image: linear-gradient(#ffffff23, #ffffff1d), url("bilder/egg.jpg");
+}
+
+.produksjonsTekst, h2 p {
+    width: 70%;
+    margin: 150px auto;
+    margin-top: 0px;
+}
+
+#h22 {
+    text-align: start;
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width:1025px){
+
+.bildeseksjon {
+    height: 600px;
+    margin: 10px auto;
+    width: 95%;
+    margin-bottom: 50px;
+}
+
+
+.bolk img {
+    height: 5rem;
+    width: 5rem;
+    }
+
+h2 {
+    margin-top: -20px;
+}
+
+.containerLenker {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.kategori {
+    height: 75vmin;
+}
+
+
+.bolk p, a {
+  
+}
+
+
+.produksjonsTekst, h2 p {
+    width: 70%;
+    margin: 150px auto;
+    margin-top: 0px;
+}
+
+#h22 {
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.generellInfo {
+    flex-direction: column;
+}
+
+.generellInfo p{
+    width: 90%;
+}
+
+.bolk {
+    width: 100%;
+    padding: 50px 100px 0px 100px;
+}
+
+}
+
+
+@media only screen and (max-width:500px){ 
+    .bolk {
+        width: 100%;
+        padding: 30px;
+    }
+    .bolk img {
+        height: 3.8rem;
+        width: 3.8rem;
+        }
+
+        .bolk p, a {
+            padding-left: 0px;
+            padding-right: 0px;
+        
+        }
+        .generellInfo p {
+            margin-top: -10px;
+        }
+
+        .generellInfo {
+             margin-top: 50px;
+        }
+}

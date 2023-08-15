@@ -1,0 +1,512 @@
+  /* hero ish */
+ 
+  
+  #hortensia, #sommerblomst, #stemor, #blomsterløk {
+    scroll-margin-top: 300px;
+  }
+
+  .bildeseksjon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("bilder/bilde2.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+}
+
+.bildeseksjon h1 {
+    color: white;
+}
+
+
+
+p {
+    margin-top: 10px;
+}
+
+.footer p {
+    margin-top: 0px;
+}
+
+.informasjon h4 {
+    width: 70%;
+    margin-left: 10%;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+
+
+/* oversikt over grønsakene*/
+.blomsterOversikt {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 10%);
+    gap: 7vmin;
+    justify-items: center;
+    margin-bottom: 130px;
+  }
+
+  .ikonOgLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .ikonOgLabel img {
+    height: 15vmin;
+    width: 15vmin;
+  }
+  
+  .ikonOgLabel label {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 10px;
+  }
+  
+  
+  
+
+.etikett {
+    height: 12vmin;
+    width: 12vmin;
+    border-radius: 90%;
+    box-shadow: 0 4px 4px rgba(47, 47, 47, 0.477);
+    z-index: 666;
+    position: absolute; /* Legg til denne egenskapen */
+    top: -50px; /* Juster denne verdien etter behov for å få riktig vertikal posisjon */
+    right: -30px; /* Juster denne verdien etter behov for å få etiketten til høyre hjørne */
+
+}
+
+
+  
+
+/* hortensia */
+.seksjon2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    background-color:#4F8966;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+    border-radius: 15px;
+}
+
+.bildeHortensia {
+    height: 35vmax;
+    margin: 30px 50px 30px 50px;
+    width: 50%;
+    background-image: url("bilder/hortensia.JPG");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bildetekst {
+    color: white;
+    height: auto;
+    width: 50%;
+    padding-left: 100px;
+}
+
+.pIntro {
+    font-size: 2.3vmin;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* sommerblomster */
+
+.seksjon3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #4F8966;
+    color: white;
+    border-radius: 15px;
+}
+
+
+.tekstBildeSommerblomst {
+    align-items: center;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.bildeSommerblomst {
+    height: 35vmax;
+    margin: 0px 50px 0 50px;
+    width: 50%;
+    background-image: url("bilder/georgin2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bildetekstSommerblomst {
+    color: white;
+    height: auto;
+    width: 50%;
+    padding-left: 100px;
+}
+
+
+
+/* grid av blomster fra produksjonen */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    height: auto;
+}
+
+.grid-item {
+    background-color: rgb(236, 236, 236);
+    padding-top: 30px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 2fr ; 
+    align-items: end; 
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.gridBilde {
+    max-width: 80%;
+    height: 40vmin;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding-bottom: 15px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid-item p {
+    padding-bottom: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.grid-item h2 {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* robot delen */
+
+.bildeTekst {
+    width: 80%;
+    margin: auto;
+}
+
+.bildeTekst h3, h2 {
+    font-weight: 999;
+}
+
+.bildeTekst p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    margin-top: 150px;
+}
+.flex img {
+    width: 50%;
+    height: 70vmin;
+    margin: 0px auto;
+    padding-left: 50px;
+    object-fit: cover;
+    background-position: bottom;
+
+}
+
+
+
+
+
+@media only screen and (max-width:1000px){
+   
+
+     /* hero ish */
+  
+     .bildeseksjon {
+        height: 600px;
+        margin: 20px auto;
+        width: 95%;
+    }
+
+.bildeseksjon h1 {
+    color: white;
+}
+
+
+
+.informasjon h4 {
+    margin:auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+
+p {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* oversikt over grønsakene*/
+.blomsterOversikt {
+    gap: 14vmin;
+    margin-bottom: 250px;
+  }
+
+.ikonOgLabel img {
+    height: 15vmin;
+    width: 15vmin;
+}
+
+.ikonOgLabel {
+    margin-bottom: -130px;
+}
+
+
+
+.etikett {
+    height: 16vmin;
+    width: 16vmin;
+    right: -20px;
+    top: -60px;
+}
+
+/* hortensia */
+.seksjon2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding-bottom: 40px;
+}
+
+
+.bildeHortensia {
+    height: 50vmax;
+    margin: 30px 0;
+    margin-bottom: -40px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.bildetekst {
+    width: 90%;
+    padding: 30px;
+    justify-content: center;
+}
+
+.pIntro {
+    font-size: 0.8rem;
+}
+
+
+/* sommerblomst */
+
+.seksjon3 {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+
+.tekstBildeSommerblomst {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.bildeSommerblomst {
+    height: 50vmax;
+    margin: 30px 0;
+    margin-bottom: -80px;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+}
+
+.bildetekstSommerblomst {
+    width: 100%;
+    padding: 0px;
+}
+
+
+/* grid av blomster fra produksjonen */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    height: auto;
+
+}
+
+.grid-item h2 {
+    padding-top: 30px;
+}
+
+
+
+.gridBilde {
+    max-width: 100%;
+    height: 70vmin;
+    padding-bottom: 0px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+}
+
+.grid-item p {
+    padding-bottom: 20px;
+}
+
+
+.seksjon3 {
+    margin-top: 100px;
+}
+.bildetekstSommerblomst {
+    padding: 50px;
+}
+}
+
+/* footer */
+
+@media only screen and (max-width:700px){
+.blomsterOversikt {
+    gap: 16vmin;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width:600px){
+    .blomsterOversikt {
+        grid-template-columns: repeat(2, 10%);
+        gap: 20vmin;
+        margin-top: -40px;
+}
+
+.ikonOgLabel img {
+    height: 28vmin;
+    width: 28vmin;
+  }
+
+  label {
+    font-size: 1rem;
+  }
+  
+}
+
+@media only screen and (max-width:1000px){
+
+
+    .bildeseksjon {
+        height: 600px;
+        margin: 10px auto;
+        width: 95%;
+        margin-bottom: 50px;
+    }
+    
+    }
+    
+    
+    @media only screen and (max-width:900px){ 
+       .flex {
+        flex-direction: column;
+        margin-top: 50px;
+       }
+    
+       .flex img {
+        width: 100%;
+        height: 70vmin;
+        padding: 0px;
+        object-position: bottom;
+       }
+    }
+
+
+@media only screen and (max-width:500px){
+    
+
+
+    .bildetekst {
+        padding: 0px;
+    }
+
+    .bildetekstSommerblomst {
+        padding: 0px;
+    }
+
+    h2 {
+        margin-bottom: 10px;
+    }
+
+   
+
+    .grid-item img {
+        margin-bottom: -10px;
+    }
+    .grid-item h2 {
+        margin-bottom: 10px;
+    }
+    .etikett {
+        height: 19vmin;
+        width: 19vmin;
+        right: 0px;
+        top: -30px;
+    }
+
+
+    .blomsterOversikt {
+        gap: 9vmax;
+    }
+
+
+    .ikonOgLabel img {
+        height: 30vmin;
+        width: 30vmin;
+    }
+
+    label {
+        font-size: 0.8rem;
+    }
+
+
+ 
+
+   
+
+}
+

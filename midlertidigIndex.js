@@ -15,54 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-// dersom jeg vil ha fixed navbar //
-/*
-window.onscroll = function() {
-  scrollFunction()
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.getElementById("navbar").style.height = "15vmin";
-    document.getElementById("logo").style.height = "12vmin";
-    document.getElementById("navlinks").style.marginTop = "45px";;
-  } else {
-    document.getElementById("navbar").style.height = "22vmin";
-    document.getElementById("logo").style.fontSize = "35px";
-    document.getElementById("navlinks").style.fontSize = "25px";
-  }
-}
-*/
-
-// pop up melding :
-
-// når siden lastes inn trigges denne funkjsonen (readyfunksjon)
-  $(document).ready(function(){
-
-    // viser meldingen etter det har gått 1 sek
-    setTimeout(showModal,1500);
-    // når knappen trykkes på skjules meldingen
-    $(".closeBtn").click(function(){
-      $("#infoMelding").hide()
-      $("#overlay").hide();
-    })
-
-    function showModal(){
-      // henter verdi fra "localStorage", som er en måte å lagre små mengder informasjon på 
-      //datamaskinen til brukeren når de besøker en nettside. 
-      // Denne informasjonen blir lagret lokalt og kan hentes frem senere, selv etter at 
-      // brukeren har lukket nettleservinduet og åpnet det igjen.
-
-      var is_modal_show = sessionStorage.getItem('alreadyShow');
-      if(is_modal_show != 'alredy shown'){
-        $("#overlay").show();
-        $("#infoMelding").show()
-        sessionStorage.setItem('alreadyShow','alredy shown');
-      }else{
-        console.log(is_modal_show);
-      }
-    }
-  })
 
 
 /* animasjon opp */
@@ -72,7 +24,7 @@ function reveal() {
   for (var i = 0; i < reveals.length; i++) {
     var windowHeight = window.innerHeight;
     var elementTop = reveals[i].getBoundingClientRect().top;
-    var elementVisible = 50;
+    var elementVisible = 30;
 
     if (elementTop < windowHeight - elementVisible) {
       reveals[i].classList.add("active");
@@ -128,3 +80,28 @@ window.addEventListener("scroll", reveal2);
 
 
 // cookie policy
+
+// skift bilde på tomat
+
+// fjern knapp
+
+
+window.addEventListener('scroll', function() {
+  var buttonElement = document.getElementById('fixed-knapp');
+  var targetElement = document.getElementById('åpningstiderOgAdresse');
+
+  // Hent posisjonen til mål-elementet og visningsvinduet
+  var targetPosition = targetElement.getBoundingClientRect().top;
+  var viewHeight = window.innerHeight;
+
+  // Sjekk om mål-elementet er synlig i visningsvinduet
+  if (targetPosition < viewHeight) {
+    // Fjern knappen hvis mål-elementet er synlig
+    buttonElement.style.display = 'none';
+  } else {
+    // Vis knappen hvis mål-elementet ikke er synlig
+    buttonElement.style.display = 'block';
+  }
+});
+
+

@@ -32,60 +32,40 @@
   
   <!-- navbar  -->
   <header id="navbar">
-    <a href="index"><img class="logoMobil" src="logo.png" alt=" Grude Gartneri logo"></a>
+    <a href="index.html"><img class="logoMobil" src="ikoner/logo.png" alt=" Grude Gartneri logo"></a>
 
     <nav id="navlinks">
       <ul>
-        <!-- <li><a href="infoside.html">Produksjon</a></li>
-      <li><a href="infoside.html">Gartneriutsalg</a></li>-->
-        <a href="index"><img id="logoDesktop" src="logo.png" alt="logo Grude Gartneri"></a>
-        <!--<li id="vårreise"><a href="infoside.html">Vår reise</a></li> 
-      <li><a href="infoside.html">Våres team</a></li> -->
+        <li><a href="produksjon.html">Produksjon</a></li>
+      <li><a href="utsalg.html">Gartneriutsalg</a></li>
+        <a href="index.html"><img id="logoDesktop" src="ikoner/logo.png" alt="logo Grude Gartneri"></a>
+        <li id="vårreise"><a href="historie.html">Vår reise</a></li> 
+      <li><a href="ansatte.html">Vårt team</a></li> 
       </ul>
-      <!--<i class="fas fa-bars" id="ham-menu"></i>-->
+      <i class="fas fa-bars" id="ham-menu"></i>
     </nav>
   </header>
 
   <!-- hero -->
-  <section class="hero"></section>
+  <section class="hero">
 
-
-
-  <!-- pop-up melding-->
-
-  <div id="overlay"></div>
-  <div id="infoMelding">
-
-    <div class="infoMelding-top">
-      <button class="closeBtn" onclick="lagreCookie2">x</button>
-    </div>
-
-    <div class="infoMelding-innhold">
-      <h3>Velkommen til Grude Gartneri´s nettsider!</h3>
-      <p>Vi vil informere om at nettsiden er under utvikling og ikke helt ferdigstilt. Vi gleder oss til å presentere
-        den endelige nettsiden veldig snart!</p>
-    </div>
-
-  </div>
-
-   
+  </section>
+ 
 
 
   <!--Teskt seksjon - Introduksjon-->
   <section class="seksjon1">
-    <div class="animasjonOpp">
       <h1>Velkommen til Grude Gartneri!</h1>
-      <p> Grude Gartneri er et gartneri med lange tradisjoner, som produserer et bredt spekter av blomster og grønnsaker. I tillegg leverer vi egg fra egne hønsehus. Vårt
+      <p class="p1"> Grude Gartneri er et gartneri med <a href="historie.html"> lange tradisjoner</a>. Vårt
         familiedrevne gartneri holder til på Klepp Stasjon, hvor våre produkter er dyrket med omsorg og ekspertise.
         Velkommen til oss!</p>
 
       <div class="ikon-container">
-        <img src="ikon4.png" class="ikon" alt="egg illustrasjon">
-        <img src="ikon2.png" class="ikon" alt="blomster illustrasjon">
-        <img src="ikon1.png" class="ikon" alt="plante illustrasjon">
-        <img src="ikon3.png" class="ikon" alt="tomat illustrasjon">
+        <img src="ikoner/ikon4.png" class="ikon" alt="egg illustrasjon">
+        <img src="ikoner/ikon2.png" class="ikon" alt="blomster illustrasjon">
+        <img src="ikoner/ikon1.png" class="ikon" alt="plante illustrasjon">
+        <img src="ikoner/ikon3.png" class="ikon" alt="tomat illustrasjon">
       </div>
-    </div>
   </section>
 
 
@@ -93,20 +73,27 @@
     
  
 <section class="seksjon2">
+  
 
   <div class="bilde1ogtekst">
       <div id="bilde1" class="animasjonFraVenstre" alt="Blid ansatt ved Grude Gartneri"></div>
 
     <div class="seksjon2tekst animasjonFraHøyre">
-        <img src="sol.png" class="seksjon2ikon" alt="sol illustrasjon">
+        <img src="ikoner/sol.png" class="seksjon2ikon" alt="sol illustrasjon">
        <h2 id="seksjon2overskrift2"> 71 mål med grønn glede </h2>
-       <p> Våre drivhus dyrker et bredt utvalg av blomster som sendes over hele landet. I tillegg driver vi blant annet
-        helårsproduksjon av agurk og leverer store mengder ferske tomater. Dette gjør oss på Grude Gartneri til stolte produsenter! </p>
-      <!--<a href="infoside.html"><button>  Les mer </button></a>-->
+       <p class="p1"> Våre drivhus dyrker et bredt utvalg av blomster som sendes over hele landet. Vi driver også
+        helårsproduksjon av agurk, samt leverer store mengder ferske tomater og kål. I tillegg leverer vi egg fra egne hønsehus. Dette gjør oss på Grude Gartneri til stolte produsenter! </p>
+        <a href="produksjon.html"><button >  Vår produksjon </button></a>
     </div>
-
-
 </div>
+
+<!-- knappen over funker ikke når de andre bildene kommer frem. kan legge på denne igjen for å få den til å funke, 
+ men da får den andre llla strek under seg
+<div class="seksjon2Knapp">
+  <a href="produksjon.html"><button>  Vår produksjon </button></a>
+</div>-->
+
+
 
 
 <div class="seksjon2bilde ">
@@ -118,7 +105,7 @@
 </div>
 
 <div class="seksjon2bilde">
-  <div id="bilde3" class="animasjonOpp" alt="Egg fra Grude Gartneri´s hønsehus"></div>
+  <div id="bilde3" class="animasjonOpp" alt="Egg fra Grude Gartneri sine hønsehus"></div>
 </div>
 
 </section>
@@ -129,29 +116,32 @@
 
 
 
-  <!--Teskt seksjon 3 - Introduksjon-->
+  <!--Teskt seksjon 3 - utsalg -->
 
-  <section class="seksjon3">
-    <div class="seksjon3tekst animasjonFraVenstre">
-      <img src="planteikon.png" class="seksjon3ikon" alt="plnate illustrasjon">
-      <h2>Besøk vårt trivelige gartneriutsalg i hjertet av Jæren</h2>
-      <p id="introduksjonstekst3"> Her finner du det du trenger for å piffe opp både hus og hage. Liv Janne, Olaug & Olaug
+  <section class="seksjon3 animasjonOpp">
+    <div class="seksjon3tekst">
+      <img src="ikoner/planteikon.png" class="seksjon3ikon" alt="plante illustrasjon">
+      <h2>Et trivelig gartneriutsalg, i hjertet av Jæren</h2>
+      <p id="introduksjonstekst3" class="p1"> Her finner du det du trenger for å piffe opp både hus og hage. Liv Janne, Olaug & Olaug
         ser frem til å ønske deg velkommen, enten du vil ha planter og potter, snittblomster eller egenproduserte egg og grønnsaker.</p>
-      <!--<a href="infoside.html"><button>  Utforsk utsalget </button></a>-->
+      <a href="utsalg.html"><button class="hvitKnapp">  Se mer </button></a>
     </div>
-    <div class="seksjon3bilde animasjonFraHøyre" alt="Gavepakke fra gartneriutsalget"></div>
+    <div class="seksjon3bilde" alt="Olaug fra gartneriutsalget"></div>
 
   </section>
  
   <section class="seksjon3mobil animasjonOpp">
     
     <div class="seksjon3mobilTekst ">
-      <img src="planteikon.png" class="seksjon3ikon" alt="plante illustrasjon">
+      <img src="ikoner/planteikon.png" class="seksjon3ikon" alt="plante illustrasjon">
       <h2>Besøk vårt trivelige garterniutsalg i hjertet av Jæren</h2>
-      <p id="introduksjonstekst3"> Her finner du det du trenger for å piffe opp både hus og hage. Liv Janne, Olaug & Olaug
+      <p id="introduksjonstekst3" class="p1"> Her finner du det du trenger for å piffe opp både hus og hage. Liv Janne, Olaug & Olaug
         ser frem til å ønske deg velkommen, enten du vil ha planter og potter, snittblomster eller egenproduserte egg og grønnsaker.</p>
-    </div>
-    <div class="seksjon3bilde animasjonOpp" alt="Gavepakke fra gartneriutsalget"></div>
+        <a href="utsalg.html"><button class="hvitKnapp">  Se mer </button></a>
+  
+      </div>
+
+    <div class="seksjon3bilde animasjonOpp" alt="Olaug fra gartneriutsalget"></div>
   </section>
 
 
@@ -164,7 +154,7 @@
   <section class="seksjon4">
 
     <div class="seksjon4overskrift1 animasjonFraVenstre">
-      <img src="sammen.png" class="seksjon4ikon" alt="samarbeid illustrasjon">
+      <img src="ikoner/sammen.png" class="seksjon4ikon" alt="samarbeid illustrasjon">
       <h2> Teamet vårt </h2>
     </div>
 
@@ -174,13 +164,13 @@
     <div class="seksjon4tekst animasjonFraHøyre">
 
       <div class="seksjon4overskrift2">
-        <img src="sammen.png" class="seksjon4ikon" alt="samarbeid illustrasjon">
-        <h2> Våres team </h2>
+        <img src="ikoner/sammen.png" class="seksjon4ikon" alt="samarbeid illustrasjon">
+        <h2> Teamet vårt </h2>
       </div>
 
-      <p> Teamet vårt består av 3 generasjoner Grude, i tillegg til dyktige fagfolk og trofaste sesongarbeidere. Sammen
+      <p class="p1"> Teamet vårt består av 3 generasjoner Grude, i tillegg til dyktige fagfolk og trofaste sesongarbeidere. Sammen
         skaper vi en trivelig arbeidsplass som jobber for å tilby våre kunder kvalitetsrike planter og grønnsaker. </p>
-      <!--<a href="infoside.html"><button>  Les mer </button></a>-->
+      <a href="ansatte.html"><button>  Les mer </button></a>
     </div>
 
   </section>
@@ -189,8 +179,8 @@
   <section class="soMe animasjonOpp">
     <h2> Følg oss for ukentlige oppdateringer: </h2>
     <div class="soMe-container">
-      <a href="https://www.instagram.com/grude.gartneri/" target="_blank"><img src="instagram.png" alt="instagram ikon"></a>
-      <a href="https://www.facebook.com/grudegartneri/?locale=nb_NO" target="_blank"><img src="facebook.png" alt="facebook ikon"></a>
+      <a href="https://www.instagram.com/grude.gartneri/" target="_blank"><img src="ikoner/instagram.png" alt="instagram ikon"></a>
+      <a href="https://www.facebook.com/grudegartneri/?locale=nb_NO" target="_blank"><img src="ikoner/facebook.png" alt="facebook ikon"></a>
     </div>
   </section>
 
@@ -198,7 +188,7 @@
   <footer class="footer">
 
     <div class="footer-venstre">
-      <a href="index"><img src="logo.png" alt="logo Grude Gartneri" class="logoFooter"></a>
+      <a href="index.html"><img src="ikoner/logo.png" alt="logo Grude Gartneri" class="logoFooter"></a>
 
     </div>
 
@@ -218,12 +208,13 @@
 
     <div class="footer-høyre">
       <div tabindex="0" class="footer-links">
-        <!-- <a href="infoside.html" class="link-1">Produksjon</a>
-      <a href="infoside.html">Gartneriutsalg</a>
-      <a href="infoside.html">Historie</a>
-      <a href="infoside.html">Kontakt</a>   -->
-        <a href="personvern">Personvern</a> 
-        <a href="aktsomhetsvurderinger" id="åpenhetslovenLink">Åpenhetsloven</a>
+         <a href="produksjon.html" class="link-1">Produksjon</a>
+      <a href="utsalg.html">Gartneriutsalg</a>
+      <a href="historie.html">Historie</a>
+      <a href="ansatte.html"> Vårt team</a>   
+        <a href="personvern.html">Personvern</a> 
+        <a href="bærekraft.html">Bærekraft</a> 
+        <a href="aktsomhetsvurderinger.html" id="åpenhetslovenLink">Åpenhetsloven</a>
       </div>
     </div>
 
@@ -231,7 +222,7 @@
 
   <!-- cookie melding-->
   <div class="cookie">
-    <h3>Informasjonskapsler</h3>
+    <h4>Informasjonskapsler</h4>
     <div class="cookieInnhold">
       <p>Vi bruker informasjonskapsler for å gi deg den beste opplevelsen! Ved å bruke vår nettsiden samtykker du til denne bruken.  <a href="personvern.html" class="lesMer">Les mer her</a></p>
         <div class="knapp">

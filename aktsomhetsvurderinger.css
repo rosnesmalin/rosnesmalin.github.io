@@ -1,14 +1,19 @@
   
+.bildeseksjon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  margin: 50px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.4)), url("bilder/drivhus.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+}
 
-  .bilde {
-    background-image: url("åpenhetsloven.jpg");
-    height: 400px;
-    width: 70%;
-    margin: 50px auto;
-    background-size: cover;
-    background-position: center;
-  }
-
+.bildeseksjon h1 {
+  color: white;
+}
   .informasjon {
     height: 700px;
 }
@@ -16,7 +21,11 @@
 .informasjon, h1 p {
     width: 70%;
     margin: 50px auto;
-    font-size: 1.2vmax;
+   
+}
+
+p {
+  font-size: 1.3vmax;
 }
 
 h1 {
@@ -36,10 +45,18 @@ h2 {
 
 @media only screen and (max-width:1000px){
 
-  .bilde {
-    width: 90%;
-
+  .bildeseksjon {
+    height: 500px;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    width: 95%;
   }
+
+  h1 {
+    margin-bottom: 50px;
+    font-size: 5.5vmin;
+  }
+  
 
   h1 {
     font-size: 3.5vmax;
@@ -50,10 +67,16 @@ h2 {
   }
 
   p, a{
-    font-size: 2vmax;
+    font-size: 1rem;
+    padding: 0px;
   }
 
   .footer {
-    margin-top: 200px;
+    margin-top: 500px;
+  }
+ }
+ @media only screen and (max-width:600px){
+  .footer {
+    margin-top: 1000px;
   }
  }

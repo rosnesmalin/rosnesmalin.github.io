@@ -1,0 +1,229 @@
+  
+.bildeseksjon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 50px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.201), rgba(0, 0, 0, 0.4)), url("bilder/åpenhetsloven.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+  }
+  
+  .bildeseksjon h1 {
+    color: white;
+  }
+  
+  .bildeTekst {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+
+  }
+
+  .bildeTekst2 {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    align-items:flex-start;
+    margin-top: 100px;
+
+  }
+
+  .tekst3 {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+
+  .tekst {
+    width: 40%;
+  }
+
+  .punkter {
+    width: 80%;
+    margin-top: -50px;
+
+  }
+     
+  #bilde1 {
+    display: block;
+    margin-top: 130px;
+    height: auto;
+    width: 50%;
+    margin-left: 50px;
+    object-fit: cover;
+}
+
+#bilde2 {
+    display: none;
+}
+
+#bilde3 {
+  height: auto;
+  width: 60%;
+  margin-right: 50px;
+  object-fit: cover;
+  margin-top: -50px;
+}
+
+  .underBildet {
+    width: 75%;
+    margin:  auto;
+  }
+  
+ 
+  ul {
+    font-size: 1rem;
+  }
+  
+
+  h2 {
+  
+      padding-bottom: 30px;
+      margin: auto;
+      width: 100%;
+  }
+
+  #h22 {
+    padding-bottom: 0px;
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+  }
+
+h3 {
+    margin: auto;
+}
+  
+  h1, h2, h3 {
+    margin-top: 25px;
+  }
+
+ 
+  .tekst2 {
+    width: 75%;
+    margin: 20px auto;
+  }
+  
+  .footer p {
+    margin: 0px;
+  }
+  
+  @media only screen and (max-width:1000px){
+
+   
+  
+    ul {
+      font-size: 0.7rem;
+    }
+     
+.bildeseksjon {
+  height: 600px;
+  margin: 20px auto;
+  width: 95%;
+  align-items: center;
+}
+
+.bildeseksjon h1 {
+  color: white;
+  position: absolute;
+}
+    .bildeTekst {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .bildeTekst img {
+        padding: 0px;
+        width: 100%;
+        margin: 0px auto;
+        margin-left: 0px;
+    }
+
+    .underBildet {
+        width: 80%;
+        margin: auto;
+      }
+
+    #bilde1 {
+        display: none;
+    }
+
+    #bilde2 {
+        display: block;
+        margin: 0 auto;
+        margin-top: 40px;
+        width: 100%;
+        object-fit: cover;
+        height: 60vmax;
+    }
+
+    .punkter {
+      margin: auto;
+    }
+
+    .tekst2 {
+        width: 80%;
+        margin: 0px auto;
+      }
+
+    .tekst {
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+      }
+  
+
+  
+    h2 {
+      width: 100%;
+      margin: auto;
+    }
+
+    h3 {
+        font-weight: 1000;
+        width: 100%;
+        margin: auto;
+        margin-top: 70px;
+    }
+
+    p {
+      width: 100%;
+    }
+  
+
+    .underBildet {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .bildeTekst2 {
+      flex-direction: column;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0px;
+      margin-top: 10px;
+      margin-bottom: 50px;
+    }
+
+  
+    .tekst3 {
+      width: 80%;
+      margin-bottom: 50px;
+      margin: auto;
+    }
+
+    #bilde3 {
+      order: 3;
+      width: 100%;
+      margin-right: 0px;
+      margin-top: 50px;
+      height: 40vmax;
+    }
+
+   }
+  
