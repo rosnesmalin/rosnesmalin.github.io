@@ -28,7 +28,7 @@
 
 .informasjon h2 {
     text-align: center;
-    font-weight: bold;
+    font-weight: 400;
     margin: auto;
 }
 
@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-    font-weight: bold;
+    font-weight: 400;
 }
 
 p {
@@ -400,11 +400,7 @@ p {
     }
 
   
-
-    .grønnsakOversikt {
-        margin-bottom: -50px;
-    }
-
+   
    
 
 }
