@@ -102,7 +102,7 @@ p {
 }
 
 .bildeHortensia {
-    height: 35vmax;
+    min-height: 35vmax;
     margin: 30px 50px 30px 50px;
     width: 50%;
     background-image: url("bilder/hortensia.JPG");
@@ -147,7 +147,7 @@ p {
 }
 
 .bildeSommerblomst {
-    height: 35vmax;
+    min-height: 35vmax;
     margin: 0px 50px 0 50px;
     width: 50%;
     background-image: url("bilder/georgin2.jpeg");
