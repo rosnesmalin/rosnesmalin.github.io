@@ -22,20 +22,13 @@
   font-weight: bold;
 }
 
-h4 {
+h5 {
   width: 70%;
   margin-left: 10%;
   margin-bottom: 100px;
 }
 
-.footer h4 {
-  margin: 0px;
-  width: 100%;
-}
-.cookie h4 {
-  margin: 0px;
-  width: 100%;
-}
+
 
   /* knapp til åpningstider */
 #fixed-knapp button  {
