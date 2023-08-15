@@ -278,7 +278,7 @@ p {
 }
 
 
-/* oversikt over grønsakene*/
+/* oversikt over typene*/
 .blomsterOversikt {
     gap: 14vmin;
     margin-bottom: 250px;
@@ -371,6 +371,10 @@ p {
     margin-top: 50px;
     height: auto;
 
+}
+
+.grid-item {
+    margin-top: 30px;
 }
 
 .grid-item h2 {
@@ -490,7 +494,7 @@ p {
 
 
     .blomsterOversikt {
-        gap: 17.5vmax;
+        gap: 16vmax;
     }
 
 
