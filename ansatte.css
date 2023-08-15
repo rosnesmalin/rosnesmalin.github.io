@@ -1,4 +1,6 @@
-  
+  * {
+    line-height: -10%;
+  }
 .bildeseksjon {
     display: flex;
     justify-content: center;
