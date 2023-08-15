@@ -66,6 +66,9 @@ h2 {
     margin-top: -80px;
 }
 
+a {
+    text-decoration: underline;
+}
 .containerLenker {
     display: flex;
     justify-content: space-between;
