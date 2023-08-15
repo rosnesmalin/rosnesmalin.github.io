@@ -41,7 +41,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   font-weight: 200;
 }
 
@@ -52,6 +52,10 @@ h3 {
 
 h5 {
   font-size: 1.3rem;
+}
+
+h4 {
+  font-weight: 1000;
 }
 
 p {
@@ -150,11 +154,6 @@ nav ul.active {
   padding-top: 60vmin;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-}
-
 
 /* hero slutt */
 
@@ -167,6 +166,11 @@ justify-content: center;
 text-align: center;
 align-items: center;
 padding: 70px;
+}
+
+.seksjon1 a {
+  color: black;
+  text-decoration: none;
 }
 
 .seksjon1 h1 {
