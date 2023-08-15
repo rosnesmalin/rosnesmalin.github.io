@@ -360,7 +360,7 @@ width: 70%;
 }
 
 
-.hvitKnapp {
+#hvitKnapp {
 background-color: #f2f2f2;
 color: #000000;
 width: auto;
@@ -459,12 +459,12 @@ transform: scale(1.2);
 .footer {
 width: 100%;
 background:#f2f2f2;
-height: auto;
+height: auto;/*denne*/
 padding: 50px;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 200px;
+margin-top: 200px;/*denne*/
 }
 
 
