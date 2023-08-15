@@ -11,32 +11,7 @@ RewriteRule ^(.*)$ $1.html [NC,L]
 RewriteEngine On
 RewriteRule ^$ index.html [L]
 
-RewriteEngine On
-RewriteRule ^$ produksjon.html [L]
 
-RewriteEngine On
-RewriteRule ^$ bloster.html [L]
-
-RewriteEngine On
-RewriteRule ^$ grønnsaker.html [L]
-
-RewriteEngine On
-RewriteRule ^$ egg.html [L]
-
-RewriteEngine On
-RewriteRule ^$ ansatte.html [L]
-
-RewriteEngine On
-RewriteRule ^$ historie.html [L]
-
-RewriteEngine On
-RewriteRule ^$ personvern.html [L]
-
-RewriteEngine On
-RewriteRule ^$ aktsomhetsvurderinger.html [L]
-
-RewriteEngine On
-RewriteRule ^$ bærekraft.html [L]
 
 
 
