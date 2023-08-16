@@ -317,7 +317,7 @@ display: flex;
 height: auto;
 padding-top: 60px;
 padding-bottom: 60px;
-background-color: #528D72;
+background-color: #4F8966;
 margin: 100px 80px 50px 80px;
 border-radius: 20px;
 }
@@ -646,7 +646,7 @@ z-index: 200000;
 }
 #ham-menu {
 display: block;
-color: #3b7741;
+color: #3c6540;
 z-index: 99999999990;
 }
 
@@ -801,8 +801,6 @@ button {
   width: 80%;
   margin: 0px auto;
 }
-
-
 
 
 
