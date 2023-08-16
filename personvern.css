@@ -1,16 +1,14 @@
   
   .informasjon {
     height: auto;
-    margin: 150px;
+    margin: 150px auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width: 60%;
    
 }
 
 .informasjon p {
-   width: 80%;
    margin-bottom: 50px;
 }
 
@@ -18,24 +16,16 @@
 .informasjon h1 {
     font-weight: 300;
     margin-bottom: 20px;
-    width: 80%;
 }
 
 .informasjon h2 {
     font-weight: 300;
-    width: 80%;
 }
 
 .informasjon h3 {
     font-weight: 300;
-    width: 80%;
 }
 
-.informasjon a {
-    width: 80%;
-    margin: auto;
-    color: rgb(21, 21, 164);
-}
 
 
 
@@ -44,6 +34,7 @@
 
  .informasjon{
     margin: 0px;
+    width: 90%;
 }  
 
 .informasjon h1 {
